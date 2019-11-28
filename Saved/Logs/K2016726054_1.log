@@ -1,4 +1,4 @@
-﻿Log file open, 11/26/19 16:10:02
+﻿Log file open, 11/28/19 14:59:10
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: K2016726054_1
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.067231
+LogStats: Stats thread started at 0.069121
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,781 +157,715 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
-[2019.11.26-07.10.02:872][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.11.26-07.10.02:872][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.11.26-07.10.02:873][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.11.26-07.10.02:873][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.11.26-07.10.02:873][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.11.26-07.10.02:873][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.11.26-07.10.02:873][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.11.26-07.10.02:873][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.11.26-07.10.02:873][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.11.26-07.10.02:873][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.11.26-07.10.02:873][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.11.26-07.10.02:873][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.11.26-07.10.02:873][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
-[2019.11.26-07.10.02:873][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
-[2019.11.26-07.10.02:874][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
-[2019.11.26-07.10.02:874][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.11.26-07.10.02:874][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.11.26-07.10.02:874][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
-[2019.11.26-07.10.02:874][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.11.26-07.10.02:874][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
-[2019.11.26-07.10.02:874][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.11.26-07.10.02:874][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.11.26-07.10.02:875][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.11.26-07.10.02:875][  0]LogInit: Selected Device Profile: [Windows]
-[2019.11.26-07.10.02:875][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.11.26-07.10.02:878][  0]LogHAL: Display: Platform has ~ 16 GB [17112195072 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.11.26-07.10.02:878][  0]LogInit: Going up to parent DeviceProfile []
-[2019.11.26-07.10.02:878][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
-[2019.11.26-07.10.02:878][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.11.26-07.10.02:878][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.11.26-07.10.02:878][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
-[2019.11.26-07.10.02:878][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.11.26-07.10.02:878][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
-[2019.11.26-07.10.02:878][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.11.26-07.10.02:878][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.11.26-07.10.02:878][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.11.26-07.10.02:878][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.11.26-07.10.02:878][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.11.26-07.10.02:878][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.11.26-07.10.02:878][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.11.26-07.10.02:878][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.11.26-07.10.02:878][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.11.26-07.10.02:878][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.11.26-07.10.02:879][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.11.26-07.10.02:880][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.11.26-07.10.02:880][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.11.26-07.10.02:880][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
-[2019.11.26-07.10.02:880][  0]LogInit: Computer: DESKTOP-B5TIVJA
-[2019.11.26-07.10.02:880][  0]LogInit: User: swconvergence01
-[2019.11.26-07.10.02:880][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.11.26-07.10.02:880][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.11.26-07.10.02:880][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.11.26-07.10.02:880][  0]LogMemory: Platform Memory Stats for Windows
-[2019.11.26-07.10.02:880][  0]LogMemory: Process Physical Memory: 108.51 MB used, 108.52 MB peak
-[2019.11.26-07.10.02:880][  0]LogMemory: Process Virtual Memory: 95.54 MB used, 95.54 MB peak
-[2019.11.26-07.10.02:880][  0]LogMemory: Physical Memory: 5554.98 MB used,  10764.48 MB free, 16319.46 MB total
-[2019.11.26-07.10.02:880][  0]LogMemory: Virtual Memory: 4687.57 MB used,  134213040.00 MB free, 134217728.00 MB total
-[2019.11.26-07.10.02:882][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.11.26-07.10.02:906][  0]LogInit: Using OS detected language (ko-KR).
-[2019.11.26-07.10.02:906][  0]LogInit: Using OS detected locale (ko-KR).
-[2019.11.26-07.10.02:907][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2019.11.26-07.10.02:981][  0]LogInit: Setting process to per monitor DPI aware
-[2019.11.26-07.10.03:032][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.11.26-07.10.03:032][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.11.26-07.10.03:180][  0]LogD3D11RHI: D3D11 adapters:
-[2019.11.26-07.10.03:244][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2019.11.26-07.10.03:244][  0]LogD3D11RHI:       8079/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.11.26-07.10.03:246][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.11.26-07.10.03:246][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.11.26-07.10.03:246][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.11.26-07.10.03:253][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.11.26-07.10.03:253][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2019.11.26-07.10.03:253][  0]LogWindows: EnumDisplayDevices:
-[2019.11.26-07.10.03:253][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2019.11.26-07.10.03:253][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.11.26-07.10.03:253][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.11.26-07.10.03:254][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.11.26-07.10.03:254][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.11.26-07.10.03:254][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2019.11.26-07.10.03:254][  0]LogD3D11RHI:   Driver Version: 431.07 (internal:26.21.14.3107, unified:431.07)
-[2019.11.26-07.10.03:254][  0]LogD3D11RHI:      Driver Date: 6-5-2019
-[2019.11.26-07.10.03:254][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2019.11.26-07.10.03:295][  0]LogD3D11RHI: Async texture creation enabled
-[2019.11.26-07.10.03:311][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.11.26-07.10.03:645][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.11.26-07.10.03:653][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.11.26-07.10.03:661][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.11.26-07.10.03:669][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.11.26-07.10.03:677][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.11.26-07.10.03:686][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.11.26-07.10.03:694][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.11.26-07.10.03:702][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.11.26-07.10.03:706][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.11.26-07.10.03:735][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.11.26-07.10.03:736][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.11.26-07.10.03:738][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.11.26-07.10.03:754][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.11.26-07.10.03:754][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.11.26-07.10.03:767][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.11.26-07.10.03:767][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.11.26-07.10.03:774][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.11.26-07.10.03:780][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.11.26-07.10.03:787][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.11.26-07.10.03:794][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.11.26-07.10.03:817][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.11.26-07.10.03:817][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.11.26-07.10.03:817][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.11.26-07.10.03:825][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.11.26-07.10.03:877][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Intermediate/Shaders/WorkingDirectory/14052/).
-[2019.11.26-07.10.03:877][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sw-convergence-01/AppData/Local/Temp/UnrealShaderWorkingDir/B2C614844E8A58DA0C4D2A91D6B41138/'.
-[2019.11.26-07.10.03:879][  0]LogXGEController: Cleaning working directory: C:/Users/sw-convergence-01/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.11.26-07.10.03:880][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.11.26-07.10.03:880][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.11.26-07.10.03:880][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.11.26-07.10.04:409][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.11.26-07.10.04:454][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/sw-convergence-01/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.11.26-07.10.04:454][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/sw-convergence-01/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.11.26-07.10.04:454][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sw-convergence-01/Desktop/VRRobot/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.11.26-07.10.04:454][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.11.26-07.10.04:454][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sw-convergence-01/Desktop/VRRobot/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.11.26-07.10.04:454][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.11.26-07.10.04:464][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.11.26-07.10.04:464][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.11.26-07.10.04:464][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.11.26-07.10.04:466][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sw-convergence-01/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.11.26-07.10.04:466][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.11.26-07.10.04:466][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.11.26-07.10.04:484][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.11.26-07.10.04:486][  0]LogSlate: Using FreeType 2.6.0
-[2019.11.26-07.10.04:487][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.11.26-07.10.04:540][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
-[2019.11.26-07.10.04:772][  0]LogInit: Selected Device Profile: [Windows]
-[2019.11.26-07.10.04:900][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.11.26-07.10.04:900][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.11.26-07.10.04:900][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.11.26-07.10.04:900][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.11.26-07.10.04:900][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.11.26-07.10.04:908][  0]LogNetVersion: K2016726054_1 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2024663954)
-[2019.11.26-07.10.05:262][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.049320 seconds
-[2019.11.26-07.10.05:269][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.11.26-07.10.05:269][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.11.26-07.10.05:269][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.11.26-07.10.06:016][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.11.26-07.10.06:018][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.11.26-07.10.06:066][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2019.11.26-07.10.06:067][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2019.11.26-07.10.06:068][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2019.11.26-07.10.06:069][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2019.11.26-07.10.06:155][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.11.26-07.10.06:248][  0]LogOcInput: OculusInput pre-init called
-[2019.11.26-07.10.06:796][  0]LogEngine: Initializing Engine...
-[2019.11.26-07.10.06:796][  0]LogHMD: Oculus plugin initialized. Version: 4.23.1-9631420+++UE4+Release-4.23, OVRPlugin: 1.37.0
-[2019.11.26-07.10.06:797][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.11.26-07.10.06:980][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.11.26-07.10.06:995][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.11.26-07.10.07:005][  0]LogInit: XAudio2 using '헤드폰(3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.11.26-07.10.07:019][  0]LogInit: FAudioDevice initialized.
-[2019.11.26-07.10.07:019][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.11.26-07.10.07:096][  0]LogDerivedDataCache: Saved boot cache 0.08s 76MB C:/Users/sw-convergence-01/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.11.26-07.10.07:103][  0]LogInit: Texture streaming: Enabled
-[2019.11.26-07.10.07:123][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.11.26-07.10.07:123][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={D670924C-41C3-C057-BF72-F7BC6CB67C09}
-[2019.11.26-07.10.07:123][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2019.11.26-07.10.07:125][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2019.11.26-07.10.07:180][  0]LogInit: Transaction tracking system initialized
-[2019.11.26-07.10.07:210][  0]BlueprintLog: New page: 에디터 로드
-[2019.11.26-07.10.07:282][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2019.11.26-07.10.07:523][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sw-convergence-01/Desktop/VRRobot/Content/' took 0.00s
-[2019.11.26-07.10.07:523][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.11.26-07.10.07:524][  0]LogCook: Display: Mobile HDR setting 1
-[2019.11.26-07.10.07:716][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2019.11.26-07.10.07:716][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/test2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.11.26-07.10.07:716][  0]LightingResults: New page: 라이팅 빌드
-[2019.11.26-07.10.07:719][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.10.07:719][  0]MapCheck: New page: 맵 체크
-[2019.11.26-07.10.07:719][  0]LightingResults: New page: 라이팅 빌드
-[2019.11.26-07.10.07:741][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
-[2019.11.26-07.10.08:065][  0]LogAIModule: Creating AISystem for world test2
-[2019.11.26-07.10.08:096][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.11.26-07.10.08:120][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
-[2019.11.26-07.10.08:120][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.11.26-07.10.08:120][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.175ms.
-[2019.11.26-07.10.08:120][  0]LogFileHelpers: Loading map 'test2' took 0.404
-[2019.11.26-07.10.08:210][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.26-07.10.08:216][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.26-07.10.08:222][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.26-07.10.08:228][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.26-07.10.08:234][  0]LogCollectionManager: Loaded 0 collections in 0.001762 seconds
-[2019.11.26-07.10.08:240][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Collections/' took 0.00s
-[2019.11.26-07.10.08:240][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sw-convergence-01/Desktop/VRRobot/Content/Developers/swconvergence01/Collections/' took 0.00s
-[2019.11.26-07.10.08:240][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sw-convergence-01/Desktop/VRRobot/Content/Collections/' took 0.00s
-[2019.11.26-07.10.08:240][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.11.26-07.10.08:246][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2863 classes and 680 folders.
-[2019.11.26-07.10.08:252][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.11.26-07.10.08:291][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.11.26-07.10.08:295][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.11.26-07.10.08:352][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.11.26-07.10.08:354][  0]LogSlate: Took 0.001661 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2019.11.26-07.10.08:356][  0]LogSlate: Took 0.001473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
-[2019.11.26-07.10.08:357][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.11.26-07.10.08:359][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.11.26-07.10.08:409][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2019.11.26-07.10.08:453][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.11.26-07.10.08:489][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.11.26-07.10.08:489][  0]LogLoad: (Engine Initialization) Total time: 6.83 seconds
-[2019.11.26-07.10.08:489][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.11.26-07.10.08:509][  0]LogOcInput: OculusInput is initialized
-[2019.11.26-07.10.08:543][  0]LogAssetRegistry: Asset discovery search completed in 4.0032 seconds
-[2019.11.26-07.10.08:546][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
-[2019.11.26-07.10.08:546][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
-[2019.11.26-07.10.08:547][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.11.26-07.10.08:588][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/sw-convergence-01/Desktop/VRRobot/Content/' took 0.08s
-[2019.11.26-07.10.10:975][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.26-07.10.14:191][662]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
-[2019.11.26-07.10.17:312][662]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.11.26-07.10.33:640][662]LogSlate: Window 'Delete Assets' being destroyed
-[2019.11.26-07.10.57:370][258]LogSlate: Window '부모 클래스 선택' being destroyed
-[2019.11.26-07.11.13:026][132]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Link/BPLink.BPLink
-[2019.11.26-07.11.13:215][132]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
-[2019.11.26-07.11.13:857][132]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.11.26-07.11.19:467][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
-[2019.11.26-07.11.19:475][802]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink7B1D347D403F24A5F28CFBBE3AE465BB.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
-[2019.11.26-07.11.29:423][993]LogSlate: Window 'BPLink' being destroyed
-[2019.11.26-07.11.29:428][993]LogSlate: Window 'BPLink' being destroyed
-[2019.11.26-07.11.29:428][993]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.35:423][707]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
-[2019.11.26-07.11.35:497][707]LogSlate: Window 'K2016726054_1 - 언리얼 에디터' being destroyed
-[2019.11.26-07.11.35:500][707]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2019.11.26-07.11.35:591][708]Cmd: QUIT_EDITOR
-[2019.11.26-07.11.35:622][708]LogExit: Preparing to exit.
-[2019.11.26-07.11.36:091][708]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:092][708]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:093][708]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:094][708]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:094][708]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:095][708]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:096][708]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:096][708]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:097][708]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:098][708]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:098][708]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:099][708]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:100][708]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:100][708]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:101][708]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:101][708]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:102][708]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:103][708]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:103][708]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:104][708]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:105][708]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:105][708]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:106][708]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:107][708]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:123][708]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2019.11.26-07.11.36:132][708]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
-[2019.11.26-07.11.36:132][708]LogExit: Editor shut down
-[2019.11.26-07.11.36:132][708]LogExit: Transaction tracking system shut down
-[2019.11.26-07.11.36:310][708]LogExit: Object subsystem successfully closed.
-[2019.11.26-07.11.36:328][708]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.11.26-07.11.36:367][708]LogModuleManager: Shutting down and abandoning module BlueprintGraph (670)
-[2019.11.26-07.11.36:367][708]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (668)
-[2019.11.26-07.11.36:367][708]LogModuleManager: Shutting down and abandoning module SceneOutliner (666)
-[2019.11.26-07.11.36:367][708]LogModuleManager: Shutting down and abandoning module AddContentDialog (664)
-[2019.11.26-07.11.36:368][708]LogModuleManager: Shutting down and abandoning module WidgetCarousel (663)
-[2019.11.26-07.11.36:368][708]LogModuleManager: Shutting down and abandoning module EditorWidgets (660)
-[2019.11.26-07.11.36:368][708]LogModuleManager: Shutting down and abandoning module CollectionManager (658)
-[2019.11.26-07.11.36:368][708]LogModuleManager: Shutting down and abandoning module StatsViewer (656)
-[2019.11.26-07.11.36:368][708]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (654)
-[2019.11.26-07.11.36:368][708]LogModuleManager: Shutting down and abandoning module FoliageEdit (652)
-[2019.11.26-07.11.36:368][708]LogModuleManager: Shutting down and abandoning module LandscapeEditor (650)
-[2019.11.26-07.11.36:369][708]LogModuleManager: Shutting down and abandoning module MeshPaintMode (648)
-[2019.11.26-07.11.36:369][708]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (646)
-[2019.11.26-07.11.36:369][708]LogModuleManager: Shutting down and abandoning module ActorPickerMode (644)
-[2019.11.26-07.11.36:369][708]LogModuleManager: Shutting down and abandoning module GeometryMode (642)
-[2019.11.26-07.11.36:369][708]LogModuleManager: Shutting down and abandoning module TextureAlignMode (640)
-[2019.11.26-07.11.36:369][708]LogModuleManager: Shutting down and abandoning module BspMode (638)
-[2019.11.26-07.11.36:369][708]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (636)
-[2019.11.26-07.11.36:369][708]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (634)
-[2019.11.26-07.11.36:369][708]LogModuleManager: Shutting down and abandoning module AutomationWorker (632)
-[2019.11.26-07.11.36:370][708]LogModuleManager: Shutting down and abandoning module OculusMR (630)
-[2019.11.26-07.11.36:370][708]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (628)
-[2019.11.26-07.11.36:370][708]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (626)
-[2019.11.26-07.11.36:370][708]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (624)
-[2019.11.26-07.11.36:370][708]LogModuleManager: Shutting down and abandoning module PlacementMode (623)
-[2019.11.26-07.11.36:370][708]LogModuleManager: Shutting down and abandoning module MaterialEditor (622)
-[2019.11.26-07.11.36:370][708]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (618)
-[2019.11.26-07.11.36:370][708]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (616)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (614)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (612)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (610)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module WebMMedia (608)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (606)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (604)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module SequenceRecorder (603)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (600)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (598)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (596)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (594)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (592)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (590)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (588)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (586)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (584)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (582)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (580)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module CharacterAI (578)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module SmartSnapping (576)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module SessionServices (574)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module MeshPaint (572)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module ViewportSnapping (570)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module ViewportInteraction (568)
-[2019.11.26-07.11.36:371][708]LogModuleManager: Shutting down and abandoning module ClothPainter (566)
-[2019.11.26-07.11.36:372][708]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (565)
-[2019.11.26-07.11.36:373][708]LogModuleManager: Shutting down and abandoning module LogVisualizer (562)
-[2019.11.26-07.11.36:373][708]LogModuleManager: Shutting down and abandoning module IntroTutorials (560)
-[2019.11.26-07.11.36:373][708]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (559)
-[2019.11.26-07.11.36:374][708]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (556)
-[2019.11.26-07.11.36:374][708]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (554)
-[2019.11.26-07.11.36:374][708]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (552)
-[2019.11.26-07.11.36:374][708]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (550)
-[2019.11.26-07.11.36:374][708]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (549)
-[2019.11.26-07.11.37:363][708]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (546)
-[2019.11.26-07.11.37:363][708]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (544)
-[2019.11.26-07.11.37:363][708]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (542)
-[2019.11.26-07.11.37:363][708]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (540)
-[2019.11.26-07.11.37:363][708]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (538)
-[2019.11.26-07.11.37:363][708]LogModuleManager: Shutting down and abandoning module InputBindingEditor (536)
-[2019.11.26-07.11.37:363][708]LogModuleManager: Shutting down and abandoning module MergeActors (534)
-[2019.11.26-07.11.37:366][708]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (532)
-[2019.11.26-07.11.37:366][708]LogModuleManager: Shutting down and abandoning module LocalizationService (531)
-[2019.11.26-07.11.37:366][708]LogModuleManager: Shutting down and abandoning module HardwareTargeting (528)
-[2019.11.26-07.11.37:366][708]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (526)
-[2019.11.26-07.11.37:366][708]LogModuleManager: Shutting down and abandoning module UndoHistory (524)
-[2019.11.26-07.11.37:366][708]LogModuleManager: Shutting down and abandoning module XmlParser (522)
-[2019.11.26-07.11.37:366][708]LogModuleManager: Shutting down and abandoning module Blutility (520)
-[2019.11.26-07.11.37:366][708]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (518)
-[2019.11.26-07.11.37:366][708]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (517)
-[2019.11.26-07.11.37:367][708]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (514)
-[2019.11.26-07.11.37:367][708]LogModuleManager: Shutting down and abandoning module SettingsEditor (512)
-[2019.11.26-07.11.37:367][708]LogModuleManager: Shutting down and abandoning module ProjectLauncher (510)
-[2019.11.26-07.11.37:367][708]LogModuleManager: Shutting down and abandoning module SessionFrontend (508)
-[2019.11.26-07.11.37:367][708]LogModuleManager: Shutting down and abandoning module ProfilerClient (506)
-[2019.11.26-07.11.37:368][708]LogModuleManager: Shutting down and abandoning module DeviceManager (504)
-[2019.11.26-07.11.37:368][708]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (503)
-[2019.11.26-07.11.37:412][708]LogModuleManager: Shutting down and abandoning module AutomationController (500)
-[2019.11.26-07.11.37:412][708]LogModuleManager: Shutting down and abandoning module AutomationWindow (498)
-[2019.11.26-07.11.37:413][708]LogModuleManager: Shutting down and abandoning module Layers (496)
-[2019.11.26-07.11.37:414][708]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (494)
-[2019.11.26-07.11.37:414][708]LogModuleManager: Shutting down and abandoning module DetailCustomizations (492)
-[2019.11.26-07.11.37:414][708]LogModuleManager: Shutting down and abandoning module PackagesDialog (490)
-[2019.11.26-07.11.37:414][708]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (488)
-[2019.11.26-07.11.37:415][708]LogModuleManager: Shutting down and abandoning module Persona (486)
-[2019.11.26-07.11.37:415][708]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (485)
-[2019.11.26-07.11.37:415][708]LogModuleManager: Shutting down and abandoning module AnimGraph (483)
-[2019.11.26-07.11.37:415][708]LogModuleManager: Shutting down and abandoning module Kismet (480)
-[2019.11.26-07.11.37:418][708]LogModuleManager: Shutting down and abandoning module KismetWidgets (479)
-[2019.11.26-07.11.37:419][708]LogModuleManager: Shutting down and abandoning module GraphEditor (476)
-[2019.11.26-07.11.37:419][708]LogModuleManager: Shutting down and abandoning module StructViewer (474)
-[2019.11.26-07.11.37:419][708]LogModuleManager: Shutting down and abandoning module ClassViewer (472)
-[2019.11.26-07.11.37:419][708]LogModuleManager: Shutting down and abandoning module Toolbox (470)
-[2019.11.26-07.11.37:419][708]LogModuleManager: Shutting down and abandoning module ModuleUI (468)
-[2019.11.26-07.11.37:420][708]LogModuleManager: Shutting down and abandoning module MovieSceneTools (466)
-[2019.11.26-07.11.37:420][708]LogModuleManager: Shutting down and abandoning module OutputLog (464)
-[2019.11.26-07.11.37:420][708]LogModuleManager: Shutting down and abandoning module GammaUI (462)
-[2019.11.26-07.11.37:420][708]LogModuleManager: Shutting down and abandoning module Documentation (460)
-[2019.11.26-07.11.37:420][708]LogModuleManager: Shutting down and abandoning module LiveCoding (458)
-[2019.11.26-07.11.37:420][708]LogModuleManager: Shutting down and abandoning module LevelSequence (456)
-[2019.11.26-07.11.37:420][708]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (454)
-[2019.11.26-07.11.37:420][708]LogModuleManager: Shutting down and abandoning module MovieScene (452)
-[2019.11.26-07.11.37:420][708]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (450)
-[2019.11.26-07.11.37:421][708]LogModuleManager: Shutting down and abandoning module LauncherPlatform (448)
-[2019.11.26-07.11.37:421][708]LogModuleManager: Shutting down and abandoning module AnalyticsET (446)
-[2019.11.26-07.11.37:421][708]LogModuleManager: Shutting down and abandoning module PortalServices (444)
-[2019.11.26-07.11.37:421][708]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
-[2019.11.26-07.11.37:421][708]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
-[2019.11.26-07.11.37:421][708]LogModuleManager: Shutting down and abandoning module AIModule (438)
-[2019.11.26-07.11.37:421][708]LogModuleManager: Shutting down and abandoning module GameplayDebugger (437)
-[2019.11.26-07.11.37:421][708]LogModuleManager: Shutting down and abandoning module AITestSuite (435)
-[2019.11.26-07.11.37:421][708]LogModuleManager: Shutting down and abandoning module NavigationSystem (433)
-[2019.11.26-07.11.37:421][708]LogModuleManager: Shutting down and abandoning module DesktopPlatform (430)
-[2019.11.26-07.11.37:421][708]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (428)
-[2019.11.26-07.11.37:423][708]LogModuleManager: Shutting down and abandoning module ProfilerService (426)
-[2019.11.26-07.11.37:670][708]LogModuleManager: Shutting down and abandoning module TaskGraph (424)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module ScreenshotTools (422)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module SteamVRController (420)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (418)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (416)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module OculusEditor (414)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module OculusInput (412)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (410)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module EditableMesh (408)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (406)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module CableComponent (404)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module AudioCapture (402)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (400)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (398)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module AppleImageUtils (396)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module AndroidPermission (394)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (392)
-[2019.11.26-07.11.37:673][708]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (390)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module MediaCompositing (388)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module ImgMedia (386)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (384)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (382)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (380)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module HTML5Networking (378)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (376)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (374)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module BackChannel (372)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (370)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module AutomationUtils (368)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module AlembicImporter (366)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module AlembicLibrary (365)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module GeometryCache (364)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (363)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module VariantManagerContent (358)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (356)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (354)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module PluginBrowser (352)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (350)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (348)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module CurveEditorTools (346)
-[2019.11.26-07.11.37:674][708]LogModuleManager: Shutting down and abandoning module CurveEditor (345)
-[2019.11.26-07.11.37:675][708]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (342)
-[2019.11.26-07.11.37:675][708]LogModuleManager: Shutting down and abandoning module CryptoKeys (340)
-[2019.11.26-07.11.37:675][708]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (338)
-[2019.11.26-07.11.37:675][708]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (336)
-[2019.11.26-07.11.37:675][708]LogModuleManager: Shutting down and abandoning module UObjectPlugin (334)
-[2019.11.26-07.11.37:675][708]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (332)
-[2019.11.26-07.11.37:675][708]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (330)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module GitSourceControl (328)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module SourceControl (327)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (324)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (322)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (320)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (318)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (316)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (314)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (312)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module Paper2DEditor (310)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module SignificanceManager (308)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (306)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (304)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (300)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module ActorSequence (298)
-[2019.11.26-07.11.37:676][708]LogModuleManager: Shutting down and abandoning module UdpMessaging (296)
-[2019.11.26-07.11.37:777][708]LogModuleManager: Shutting down and abandoning module TcpMessaging (294)
-[2019.11.26-07.11.37:878][708]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (292)
-[2019.11.26-07.11.37:878][708]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (290)
-[2019.11.26-07.11.37:878][708]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
-[2019.11.26-07.11.37:878][708]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
-[2019.11.26-07.11.37:878][708]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
-[2019.11.26-07.11.37:878][708]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.11.26-07.11.37:878][708]LogModuleManager: Shutting down and abandoning module MagicLeapAR (282)
-[2019.11.26-07.11.37:878][708]LogModuleManager: Shutting down and abandoning module AugmentedReality (281)
-[2019.11.26-07.11.37:878][708]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
-[2019.11.26-07.11.37:881][708]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
-[2019.11.26-07.11.37:881][708]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
-[2019.11.26-07.11.37:881][708]LogModuleManager: Shutting down and abandoning module DataValidation (272)
-[2019.11.26-07.11.37:881][708]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
-[2019.11.26-07.11.37:881][708]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2019.11.26-07.11.37:882][708]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2019.11.26-07.11.37:882][708]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
-[2019.11.26-07.11.37:882][708]LogModuleManager: Shutting down and abandoning module MainFrame (264)
-[2019.11.26-07.11.37:882][708]LogModuleManager: Shutting down and abandoning module HotReload (263)
-[2019.11.26-07.11.37:882][708]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
-[2019.11.26-07.11.37:883][708]LogModuleManager: Shutting down and abandoning module TreeMap (257)
-[2019.11.26-07.11.37:883][708]LogModuleManager: Shutting down and abandoning module AnimationSharing (254)
-[2019.11.26-07.11.37:883][708]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.11.26-07.11.37:883][708]LogModuleManager: Shutting down and abandoning module Paper2D (250)
-[2019.11.26-07.11.37:883][708]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
-[2019.11.26-07.11.37:885][708]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
-[2019.11.26-07.11.37:885][708]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (244)
-[2019.11.26-07.11.37:885][708]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
-[2019.11.26-07.11.37:885][708]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
-[2019.11.26-07.11.37:885][708]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
-[2019.11.26-07.11.37:885][708]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
-[2019.11.26-07.11.37:885][708]LogModuleManager: Shutting down and abandoning module Overlay (234)
-[2019.11.26-07.11.37:885][708]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
-[2019.11.26-07.11.37:885][708]LogModuleManager: Shutting down and abandoning module VREditor (230)
-[2019.11.26-07.11.37:886][708]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
-[2019.11.26-07.11.37:886][708]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
-[2019.11.26-07.11.37:886][708]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
-[2019.11.26-07.11.37:887][708]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
-[2019.11.26-07.11.37:887][708]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
-[2019.11.26-07.11.37:887][708]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
-[2019.11.26-07.11.37:887][708]LogModuleManager: Shutting down and abandoning module UMG (216)
-[2019.11.26-07.11.37:887][708]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
-[2019.11.26-07.11.37:888][708]LogModuleManager: Shutting down and abandoning module Sequencer (214)
-[2019.11.26-07.11.37:889][708]LogModuleManager: Shutting down and abandoning module MessageLog (211)
-[2019.11.26-07.11.37:889][708]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
-[2019.11.26-07.11.37:889][708]LogModuleManager: Shutting down and abandoning module Slate (204)
-[2019.11.26-07.11.37:889][708]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
-[2019.11.26-07.11.37:889][708]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2019.11.26-07.11.37:890][708]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
-[2019.11.26-07.11.37:890][708]LogModuleManager: Shutting down and abandoning module MRMesh (196)
-[2019.11.26-07.11.37:890][708]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
-[2019.11.26-07.11.37:890][708]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
-[2019.11.26-07.11.37:890][708]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
-[2019.11.26-07.11.37:890][708]LogModuleManager: Shutting down and abandoning module Networking (188)
-[2019.11.26-07.11.37:890][708]LogModuleManager: Shutting down and abandoning module Core (186)
-[2019.11.26-07.11.37:890][708]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2019.11.26-07.11.37:890][708]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2019.11.26-07.11.37:890][708]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2019.11.26-07.11.37:890][708]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2019.11.26-07.11.37:890][708]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
-[2019.11.26-07.11.37:890][708]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2019.11.26-07.11.37:890][708]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
-[2019.11.26-07.11.37:890][708]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
-[2019.11.26-07.11.37:891][708]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
-[2019.11.26-07.11.37:891][708]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
-[2019.11.26-07.11.38:068][708]LogDerivedDataCache: Shutdown
-[2019.11.26-07.11.38:068][708]LogModuleManager: Shutting down and abandoning module XGEController (162)
-[2019.11.26-07.11.38:068][708]LogXGEController: Cleaning working directory: C:/Users/sw-convergence-01/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.11.26-07.11.38:068][708]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
-[2019.11.26-07.11.38:068][708]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
-[2019.11.26-07.11.38:068][708]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
-[2019.11.26-07.11.38:068][708]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
-[2019.11.26-07.11.38:071][708]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
-[2019.11.26-07.11.38:071][708]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
-[2019.11.26-07.11.38:072][708]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
-[2019.11.26-07.11.38:072][708]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
-[2019.11.26-07.11.38:072][708]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
-[2019.11.26-07.11.38:072][708]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
-[2019.11.26-07.11.38:072][708]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
-[2019.11.26-07.11.38:072][708]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
-[2019.11.26-07.11.38:072][708]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
-[2019.11.26-07.11.38:072][708]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
-[2019.11.26-07.11.38:072][708]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
-[2019.11.26-07.11.38:072][708]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
-[2019.11.26-07.11.38:072][708]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
-[2019.11.26-07.11.38:073][708]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
-[2019.11.26-07.11.38:073][708]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
-[2019.11.26-07.11.38:073][708]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
-[2019.11.26-07.11.38:073][708]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
-[2019.11.26-07.11.38:073][708]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
-[2019.11.26-07.11.38:073][708]LogModuleManager: Shutting down and abandoning module Messaging (117)
-[2019.11.26-07.11.38:073][708]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
-[2019.11.26-07.11.38:074][708]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
-[2019.11.26-07.11.38:074][708]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module InputCore (90)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module Settings (88)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module SteamVR (78)
-[2019.11.26-07.11.38:079][708]LogHMD: Freeing OpenVRDLLHandle.
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
-[2019.11.26-07.11.38:079][708]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
-[2019.11.26-07.11.38:080][708]LogModuleManager: Shutting down and abandoning module XMPP (61)
-[2019.11.26-07.11.38:081][708]LogModuleManager: Shutting down and abandoning module WebSockets (60)
-[2019.11.26-07.11.38:111][708]LogModuleManager: Shutting down and abandoning module HTTP (57)
-[2019.11.26-07.11.38:111][708]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.11.26-07.11.38:111][708]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB13B5162-4DD1-6EF0-7878-D090C15B20DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=7d0c52ad43db9ba3c20c9d803791780e%7C20767ea79fb84260bf5c17cb9a09313a%7C21ac0887-92d2-4c12-9d08-7e9c1126acd8&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.11.26-07.11.38:117][708]LogModuleManager: Shutting down and abandoning module SSL (56)
-[2019.11.26-07.11.38:118][708]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
-[2019.11.26-07.11.38:119][708]LogModuleManager: Shutting down and abandoning module Media (51)
-[2019.11.26-07.11.38:120][708]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
-[2019.11.26-07.11.38:120][708]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
-[2019.11.26-07.11.38:120][708]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
-[2019.11.26-07.11.38:120][708]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
-[2019.11.26-07.11.38:120][708]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2019.11.26-07.11.38:120][708]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2019.11.26-07.11.38:121][708]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2019.11.26-07.11.38:121][708]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2019.11.26-07.11.38:122][708]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2019.11.26-07.11.38:122][708]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2019.11.26-07.11.38:122][708]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2019.11.26-07.11.38:122][708]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2019.11.26-07.11.38:123][708]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2019.11.26-07.11.38:123][708]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2019.11.26-07.11.38:123][708]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2019.11.26-07.11.38:123][708]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2019.11.26-07.11.38:124][708]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2019.11.26-07.11.38:124][708]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2019.11.26-07.11.38:124][708]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2019.11.26-07.11.38:124][708]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2019.11.26-07.11.38:124][708]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2019.11.26-07.11.38:124][708]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2019.11.26-07.11.38:124][708]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2019.11.26-07.11.38:124][708]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2019.11.26-07.11.38:127][708]LogD3D11RHI: Shutdown
-[2019.11.26-07.11.38:127][708]LogD3D11RHI: CleanupD3DDevice
-[2019.11.26-07.11.38:128][708]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.11.26-07.11.38:128][708]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.11.26-07.11.38:128][708]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.11.26-07.11.38:240][708]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.11.26-07.11.38:247][708]LogExit: Exiting.
-[2019.11.26-07.11.38:257][708]Log file closed, 11/26/19 16:11:38
+[2019.11.28-05.59.10:918][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.28-05.59.10:918][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.28-05.59.10:918][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.11.28-05.59.10:918][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.28-05.59.10:918][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.28-05.59.10:918][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.11.28-05.59.10:918][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.11.28-05.59.10:918][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.28-05.59.10:918][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.28-05.59.10:918][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.28-05.59.10:918][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.28-05.59.10:918][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.28-05.59.10:918][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.28-05.59.10:918][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.28-05.59.10:918][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.28-05.59.10:919][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.11.28-05.59.10:919][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.11.28-05.59.10:920][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-05.59.10:920][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.28-05.59.10:920][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.28-05.59.10:921][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.28-05.59.10:922][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-05.59.10:922][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.28-05.59.10:922][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.28-05.59.10:922][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.28-05.59.10:922][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.28-05.59.10:924][  0]LogHAL: Display: Platform has ~ 16 GB [17112195072 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.28-05.59.10:924][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.28-05.59.10:925][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.28-05.59.10:925][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.28-05.59.10:926][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.28-05.59.10:926][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.28-05.59.10:926][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.28-05.59.10:926][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.28-05.59.10:926][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.28-05.59.10:926][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-05.59.10:926][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.28-05.59.10:926][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.28-05.59.10:926][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.28-05.59.10:926][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.28-05.59.10:926][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.28-05.59.10:926][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.11.28-05.59.10:926][  0]LogInit: Computer: DESKTOP-B5TIVJA
+[2019.11.28-05.59.10:926][  0]LogInit: User: swconvergence01
+[2019.11.28-05.59.10:926][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.28-05.59.10:926][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.28-05.59.10:926][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.28-05.59.10:926][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.28-05.59.10:926][  0]LogMemory: Process Physical Memory: 108.64 MB used, 108.64 MB peak
+[2019.11.28-05.59.10:926][  0]LogMemory: Process Virtual Memory: 95.31 MB used, 95.31 MB peak
+[2019.11.28-05.59.10:926][  0]LogMemory: Physical Memory: 5161.96 MB used,  11157.50 MB free, 16319.46 MB total
+[2019.11.28-05.59.10:926][  0]LogMemory: Virtual Memory: 4687.57 MB used,  134213040.00 MB free, 134217728.00 MB total
+[2019.11.28-05.59.10:929][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.11.28-05.59.10:952][  0]LogInit: Using OS detected language (ko-KR).
+[2019.11.28-05.59.10:952][  0]LogInit: Using OS detected locale (ko-KR).
+[2019.11.28-05.59.10:952][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2019.11.28-05.59.11:026][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.28-05.59.11:080][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.28-05.59.11:080][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.28-05.59.11:245][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.28-05.59.11:305][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.11.28-05.59.11:306][  0]LogD3D11RHI:       8079/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.28-05.59.11:308][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.28-05.59.11:308][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.28-05.59.11:308][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.28-05.59.11:314][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.28-05.59.11:314][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.28-05.59.11:314][  0]LogWindows: EnumDisplayDevices:
+[2019.11.28-05.59.11:315][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.11.28-05.59.11:315][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.11.28-05.59.11:315][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.11.28-05.59.11:315][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.11.28-05.59.11:315][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.28-05.59.11:315][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.11.28-05.59.11:316][  0]LogD3D11RHI:   Driver Version: 431.07 (internal:26.21.14.3107, unified:431.07)
+[2019.11.28-05.59.11:316][  0]LogD3D11RHI:      Driver Date: 6-5-2019
+[2019.11.28-05.59.11:316][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.11.28-05.59.11:358][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.28-05.59.11:373][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.28-05.59.11:696][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.28-05.59.11:705][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.28-05.59.11:713][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.28-05.59.11:721][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.28-05.59.11:733][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.28-05.59.11:741][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.28-05.59.11:749][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.28-05.59.11:757][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.28-05.59.11:762][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.28-05.59.11:794][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.28-05.59.11:796][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.28-05.59.11:815][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.28-05.59.11:815][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.28-05.59.11:828][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.28-05.59.11:828][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.28-05.59.11:835][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.28-05.59.11:842][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.28-05.59.11:848][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.28-05.59.11:858][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.28-05.59.11:880][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.28-05.59.11:880][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.28-05.59.11:880][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.28-05.59.11:889][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.28-05.59.11:940][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Intermediate/Shaders/WorkingDirectory/8604/).
+[2019.11.28-05.59.11:940][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sw-convergence-01/AppData/Local/Temp/UnrealShaderWorkingDir/ED18227D4C9FC0A88834D3A1D21343EF/'.
+[2019.11.28-05.59.11:942][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.28-05.59.11:942][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.28-05.59.11:942][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.28-05.59.12:488][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.28-05.59.12:531][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/sw-convergence-01/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.28-05.59.12:531][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/sw-convergence-01/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.11.28-05.59.12:531][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sw-convergence-01/Desktop/VRRobot/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.28-05.59.12:531][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.28-05.59.12:532][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sw-convergence-01/Desktop/VRRobot/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.28-05.59.12:532][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.28-05.59.12:541][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.28-05.59.12:542][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.28-05.59.12:542][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.28-05.59.12:543][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sw-convergence-01/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.28-05.59.12:543][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.28-05.59.12:543][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.28-05.59.12:562][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.28-05.59.12:564][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.28-05.59.12:564][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.28-05.59.12:614][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2019.11.28-05.59.12:837][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.28-05.59.12:964][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.28-05.59.12:964][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.28-05.59.12:964][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.28-05.59.12:964][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.28-05.59.12:964][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.28-05.59.12:971][  0]LogNetVersion: K2016726054_1 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2024663954)
+[2019.11.28-05.59.13:339][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.055933 seconds
+[2019.11.28-05.59.13:345][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.11.28-05.59.13:345][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.11.28-05.59.13:345][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.28-05.59.14:091][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.28-05.59.14:093][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.28-05.59.14:143][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.11.28-05.59.14:143][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.11.28-05.59.14:144][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.11.28-05.59.14:145][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.11.28-05.59.14:235][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.28-05.59.14:342][  0]LogOcInput: OculusInput pre-init called
+[2019.11.28-05.59.14:916][  0]LogEngine: Initializing Engine...
+[2019.11.28-05.59.14:916][  0]LogHMD: Oculus plugin initialized. Version: 4.23.1-9631420+++UE4+Release-4.23, OVRPlugin: 1.37.0
+[2019.11.28-05.59.14:917][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.28-05.59.15:110][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.28-05.59.15:130][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.28-05.59.15:140][  0]LogInit: XAudio2 using '헤드폰(3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.28-05.59.15:169][  0]LogInit: FAudioDevice initialized.
+[2019.11.28-05.59.15:169][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.28-05.59.15:246][  0]LogDerivedDataCache: Saved boot cache 0.08s 76MB C:/Users/sw-convergence-01/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.28-05.59.15:253][  0]LogInit: Texture streaming: Enabled
+[2019.11.28-05.59.15:272][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.28-05.59.15:272][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2019.11.28-05.59.15:275][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2019.11.28-05.59.15:331][  0]LogInit: Transaction tracking system initialized
+[2019.11.28-05.59.15:362][  0]BlueprintLog: New page: 에디터 로드
+[2019.11.28-05.59.15:442][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.11.28-05.59.15:684][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sw-convergence-01/Desktop/VRRobot/Content/' took 0.01s
+[2019.11.28-05.59.15:684][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.28-05.59.15:684][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.28-05.59.15:862][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.11.28-05.59.15:862][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/test2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.28-05.59.15:869][  0]LightingResults: New page: 라이팅 빌드
+[2019.11.28-05.59.15:871][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.28-05.59.15:871][  0]MapCheck: New page: 맵 체크
+[2019.11.28-05.59.15:871][  0]LightingResults: New page: 라이팅 빌드
+[2019.11.28-05.59.15:893][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2019.11.28-05.59.16:901][  0]LogAIModule: Creating AISystem for world test2
+[2019.11.28-05.59.16:937][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.28-05.59.16:963][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2019.11.28-05.59.16:963][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.28-05.59.16:963][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.177ms.
+[2019.11.28-05.59.16:963][  0]LogFileHelpers: Loading map 'test2' took 1.101
+[2019.11.28-05.59.17:092][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-05.59.17:099][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-05.59.17:104][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-05.59.17:110][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-05.59.17:127][  0]LogCollectionManager: Loaded 0 collections in 0.001779 seconds
+[2019.11.28-05.59.17:149][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Collections/' took 0.00s
+[2019.11.28-05.59.17:149][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sw-convergence-01/Desktop/VRRobot/Content/Developers/swconvergence01/Collections/' took 0.00s
+[2019.11.28-05.59.17:149][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sw-convergence-01/Desktop/VRRobot/Content/Collections/' took 0.00s
+[2019.11.28-05.59.17:149][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2019.11.28-05.59.17:158][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2863 classes and 680 folders.
+[2019.11.28-05.59.17:188][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.28-05.59.17:513][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.28-05.59.17:528][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.11.28-05.59.17:693][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.28-05.59.17:695][  0]LogSlate: Took 0.001832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.11.28-05.59.17:697][  0]LogSlate: Took 0.001543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.11.28-05.59.17:698][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.28-05.59.17:706][  0]LogSlate: Took 0.004892 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.28-05.59.17:837][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.11.28-05.59.17:902][  0]LogSlate: Took 0.005541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.28-05.59.17:944][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.28-05.59.17:944][  0]LogLoad: (Engine Initialization) Total time: 8.32 seconds
+[2019.11.28-05.59.17:944][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.28-05.59.17:958][  0]LogOcInput: OculusInput is initialized
+[2019.11.28-05.59.18:008][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.28-05.59.18:105][  1]LogAssetRegistry: Asset discovery search completed in 5.4916 seconds
+[2019.11.28-05.59.18:108][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2019.11.28-05.59.18:108][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
+[2019.11.28-05.59.23:103][ 16]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/sw-convergence-01/Desktop/VRRobot/Content/' took 5.14s
+[2019.11.28-05.59.37:985][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.28-05.59.38:084][487]LogTemp: Repeating last play command: VR 프리뷰
+[2019.11.28-05.59.38:104][487]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.28-05.59.38:105][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-05.59.38:105][487]LogHMD: Initializing OVRPlugin session
+[2019.11.28-05.59.38:189][487]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
+[2019.11.28-05.59.38:190][487]PIE: New page: PIE 세션: test2 (2019. 11. 28. 오후 11:59:38)
+[2019.11.28-05.59.38:191][487]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.11.28-05.59.38:192][487]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_test2
+[2019.11.28-05.59.38:201][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008919s)
+[2019.11.28-05.59.38:203][487]LogAIModule: Creating AISystem for world test2
+[2019.11.28-05.59.38:203][487]LogPlayLevel: PIE: World Init took: (0.001297s)
+[2019.11.28-05.59.38:203][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/test2.test2 to /Game/UEDPIE_0_test2.test2 (0.010505s)
+[2019.11.28-05.59.38:224][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2019.11.28-05.59.38:237][487]LogInit: XAudio2 using '헤드폰(3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.28-05.59.38:252][487]LogInit: FAudioDevice initialized.
+[2019.11.28-05.59.38:261][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-05.59.38:287][487]LogLoad: Game class is 'GameModeBase'
+[2019.11.28-05.59.38:290][487]LogWorld: Bringing World /Game/UEDPIE_0_test2.test2 up for play (max tick rate 0) at 2019.11.28-14.59.38
+[2019.11.28-05.59.38:293][487]LogWorld: Bringing up level for play took: 0.004324
+[2019.11.28-05.59.38:293][487]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2019.11.28-05.59.38:303][487]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.11.28-05.59.38:307][487]PIE: /Game/UEDPIE_0_test2 에 대한 에디터에서 플레이 시작 시간: -0.358
+[2019.11.28-05.59.38:307][487]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.28-05.59.38:307][487]LogEngine: Changing dynamic resolution state.
+[2019.11.28-05.59.38:335][487]LogRenderer: Reallocating scene render targets to support 2688x1600 Format 10 NumSamples 1 (Frame:1).
+[2019.11.28-05.59.38:335][487]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
+[2019.11.28-06.00.18:192][ 73]LogEditorSessionSummary: EditorSessionSummary sent report. Type=AbnormalShutdown, SessionId={D670924C-41C3-C057-BF72-F7BC6CB67C09}
+[2019.11.28-06.00.18:192][ 73]LogEditorSessionSummary: EditorSessionSummary sent report. Type=AbnormalShutdown, SessionId={6C8999BC-4549-A0A2-8D46-A58235D4730A}
+[2019.11.28-06.00.18:192][ 73]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={B13B5162-4DD1-6EF0-7878-D090C15B20DC}
+[2019.11.28-06.01.32:114][473]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.28-06.01.32:130][473]LogSlate: Window 'K2016726054_1 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.11.28-06.01.32:140][473]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.28-06.01.32:144][473]LogWorld: BeginTearingDown for /Game/UEDPIE_0_test2
+[2019.11.28-06.01.32:144][473]LogWorld: UWorld::CleanupWorld for test2, bSessionEnded=true, bCleanupResources=true
+[2019.11.28-06.01.32:156][473]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-06.01.32:157][473]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.28-06.01.32:185][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2019.11.28-06.01.32:196][474]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.11.28-06.07.21:310][732]LogSlate: Took 0.003605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.28-06.07.21:317][732]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Hole/BPHole.BPHole
+[2019.11.28-06.07.21:631][732]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2019.11.28-06.07.22:441][732]LogSlate: Took 0.005073 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.28-06.07.22:542][733]LogSlate: Took 0.005086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.28-06.07.44:403][345]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Link/BPLink.BPLink
+[2019.11.28-06.07.47:023][631]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.11.28-06.07.47:063][631]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Link/BPLink.BPLink
+[2019.11.28-06.08.01:968][389]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Link/BPLink2.BPLink2
+[2019.11.28-06.08.28:872][473]LogSlate: Took 0.009114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.11.28-06.08.39:096][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.28-06.08.39:158][673]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink5F331B504236D1FC3EDFBEAD62E05496.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.28-06.08.39:640][728]BlueprintLog: New page: BPLink 컴파일
+[2019.11.28-06.08.39:679][728]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2019.11.28-06.08.52:801][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.28-06.08.52:849][286]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink271A59DF4F73EAB5ADBB5FACCE357A27.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.28-06.08.53:179][323]BlueprintLog: New page: BPLink 컴파일
+[2019.11.28-06.08.53:210][323]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.11.28-06.09.18:199][297]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={B3A966D3-4E1A-D790-1DB0-8495825191A2}
+[2019.11.28-06.10.00:011][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.28-06.10.00:055][291]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLinkF895F2EF4C13F902327E82B79E69EB96.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.28-06.10.00:614][356]BlueprintLog: New page: BPLink 컴파일
+[2019.11.28-06.10.00:643][356]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2019.11.28-06.11.33:777][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.28-06.11.33:825][456]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLinkAE22E0BD4D61AD0D8887D9859FE32C4B.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.28-06.11.34:270][507]BlueprintLog: New page: BPLink 컴파일
+[2019.11.28-06.11.34:302][507]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2019.11.28-06.11.45:076][786]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BPComponents.BPComponents
+[2019.11.28-06.11.57:099][941]LogSlate: Window '변수 유형 변경' being destroyed
+[2019.11.28-06.11.59:865][199]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2019.11.28-06.11.59:870][199]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2019.11.28-06.12.01:122][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.28-06.12.01:190][344]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponentsAB3D951941363A39276F858D9ED196AB.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.28-06.12.01:577][386]BlueprintLog: New page: BPComponents 컴파일
+[2019.11.28-06.12.01:621][386]LogBlueprint: Error: [Compiler BPComponents] 사용 중인  Link List  핀은 더 이상  Get  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2019.11.28-06.12.01:621][386]LogBlueprint: Error: [Compiler BPComponents] 사용 중인  Link List  핀은 더 이상  Get  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2019.11.28-06.12.01:854][386]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2019.11.28-06.12.37:304][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.28-06.12.37:368][483]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponents78ACC9D142461299B2B7D5B26DDFA069.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.28-06.12.37:708][521]BlueprintLog: New page: BPComponents 컴파일
+[2019.11.28-06.12.37:734][521]LogBlueprint: Error: [Compiler BPComponents] 사용 중인  Link List  핀은 더 이상  Get  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2019.11.28-06.12.37:933][521]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2019.11.28-06.12.57:072][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.28-06.12.57:132][794]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponentsABC6C5144F73B0E50C53A3B3248EC9B3.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.28-06.12.57:672][856]BlueprintLog: New page: BPComponents 컴파일
+[2019.11.28-06.12.57:702][856]LogBlueprint: Error: [Compiler BPComponents] 사용 중인  Link List  핀은 더 이상  Get  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2019.11.28-06.12.57:887][856]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2019.11.28-06.14.01:797][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.28-06.14.01:860][416]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponents48191A314DBA11937BD366BE2A23AAA9.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.28-06.14.02:278][463]BlueprintLog: New page: BPComponents 컴파일
+[2019.11.28-06.14.02:506][463]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.11.28-06.14.27:312][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.28-06.14.27:374][394]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponents0874FA3440F4D7CD65526AB2198F6CDE.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.28-06.14.28:285][501]BlueprintLog: New page: BPComponents 컴파일
+[2019.11.28-06.14.28:518][501]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2019.11.28-06.14.33:615][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink2" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink2.uasset" SILENT=true
+[2019.11.28-06.14.33:674][ 97]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink24D58D36D487CA71FC8AB928C288DB0F8.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink2.uasset'
+[2019.11.28-06.14.35:120][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.28-06.14.35:169][266]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLinkFB1CB3374B3425A9C3B40CB3CA443218.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.28-06.14.36:160][383]BlueprintLog: New page: BPLink 컴파일
+[2019.11.28-06.14.36:198][383]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.11.28-06.15.49:121][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.28-06.15.49:174][ 21]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink9FEFD9E04A12FCD4FE6EC9A40FA7F0B7.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.28-06.15.49:674][ 79]BlueprintLog: New page: BPLink 컴파일
+[2019.11.28-06.15.49:715][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2019.11.28-06.17.17:536][553]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2019.11.28-06.17.17:537][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.28-06.17.17:765][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/test2_Auto16C9BAE074E4954A8637C15B09CC65347.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto1.umap'
+[2019.11.28-06.17.17:769][553]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/test2' took 0.262
+[2019.11.28-06.17.17:769][553]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.262
+[2019.11.28-06.17.17:770][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Axle/BPAxle] ([1] browsable assets)...
+[2019.11.28-06.17.17:787][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Axle/BPAxle.BPAxle]
+[2019.11.28-06.17.17:787][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Axle/BPAxle]
+[2019.11.28-06.17.17:850][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPAxle_Auto1C8C7506B4B792C5664C474A7BCAA6A47.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Axle/BPAxle_Auto1.uasset'
+[2019.11.28-06.17.17:851][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle10] ([1] browsable assets)...
+[2019.11.28-06.17.17:864][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Axle/ImplementedAxle/BPAxle10.BPAxle10]
+[2019.11.28-06.17.17:864][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle10]
+[2019.11.28-06.17.17:923][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPAxle10_Auto12CE264A0445B0076C5E79E8C18151E2C.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Axle/ImplementedAxle/BPAxle10_Auto1.uasset'
+[2019.11.28-06.17.17:925][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle11] ([1] browsable assets)...
+[2019.11.28-06.17.17:937][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Axle/ImplementedAxle/BPAxle11.BPAxle11]
+[2019.11.28-06.17.17:937][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle11]
+[2019.11.28-06.17.17:998][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPAxle11_Auto11E8E49D94A8E8BB1EE758C9BA447681B.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Axle/ImplementedAxle/BPAxle11_Auto1.uasset'
+[2019.11.28-06.17.17:999][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle12] ([1] browsable assets)...
+[2019.11.28-06.17.18:012][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Axle/ImplementedAxle/BPAxle12.BPAxle12]
+[2019.11.28-06.17.18:012][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle12]
+[2019.11.28-06.17.18:071][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPAxle12_Auto1F9CFADC04D29C6EE406B2181F8340B8A.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Axle/ImplementedAxle/BPAxle12_Auto1.uasset'
+[2019.11.28-06.17.18:073][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle2] ([1] browsable assets)...
+[2019.11.28-06.17.18:085][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Axle/ImplementedAxle/BPAxle2.BPAxle2]
+[2019.11.28-06.17.18:085][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle2]
+[2019.11.28-06.17.18:142][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPAxle2_Auto1EABEA0BD473E3D7D7F42908B67E365BC.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Axle/ImplementedAxle/BPAxle2_Auto1.uasset'
+[2019.11.28-06.17.18:144][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle3] ([1] browsable assets)...
+[2019.11.28-06.17.18:156][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Axle/ImplementedAxle/BPAxle3.BPAxle3]
+[2019.11.28-06.17.18:156][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle3]
+[2019.11.28-06.17.18:215][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPAxle3_Auto1135B9C794E181E8B57797EB19EC1C4E8.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Axle/ImplementedAxle/BPAxle3_Auto1.uasset'
+[2019.11.28-06.17.18:219][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle4] ([1] browsable assets)...
+[2019.11.28-06.17.18:232][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Axle/ImplementedAxle/BPAxle4.BPAxle4]
+[2019.11.28-06.17.18:232][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle4]
+[2019.11.28-06.17.18:288][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPAxle4_Auto1B3549B4547894E0855E0CEA4E51B5031.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Axle/ImplementedAxle/BPAxle4_Auto1.uasset'
+[2019.11.28-06.17.18:289][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle5] ([1] browsable assets)...
+[2019.11.28-06.17.18:301][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Axle/ImplementedAxle/BPAxle5.BPAxle5]
+[2019.11.28-06.17.18:301][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle5]
+[2019.11.28-06.17.18:359][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPAxle5_Auto184F67DF248B644308F2F968B4D531774.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Axle/ImplementedAxle/BPAxle5_Auto1.uasset'
+[2019.11.28-06.17.18:359][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle6] ([1] browsable assets)...
+[2019.11.28-06.17.18:371][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Axle/ImplementedAxle/BPAxle6.BPAxle6]
+[2019.11.28-06.17.18:372][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle6]
+[2019.11.28-06.17.18:431][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPAxle6_Auto16C892BEB4641419DA16AFBAFA29E9CA6.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Axle/ImplementedAxle/BPAxle6_Auto1.uasset'
+[2019.11.28-06.17.18:432][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle7] ([1] browsable assets)...
+[2019.11.28-06.17.18:444][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Axle/ImplementedAxle/BPAxle7.BPAxle7]
+[2019.11.28-06.17.18:445][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle7]
+[2019.11.28-06.17.18:502][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPAxle7_Auto19D5CF7884A3F6867E1904A94892F550B.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Axle/ImplementedAxle/BPAxle7_Auto1.uasset'
+[2019.11.28-06.17.18:503][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle8] ([1] browsable assets)...
+[2019.11.28-06.17.18:517][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Axle/ImplementedAxle/BPAxle8.BPAxle8]
+[2019.11.28-06.17.18:517][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle8]
+[2019.11.28-06.17.18:584][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPAxle8_Auto1FFBD7F894D63F73E770705822E1C1251.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Axle/ImplementedAxle/BPAxle8_Auto1.uasset'
+[2019.11.28-06.17.18:586][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle9] ([1] browsable assets)...
+[2019.11.28-06.17.18:601][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Axle/ImplementedAxle/BPAxle9.BPAxle9]
+[2019.11.28-06.17.18:601][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Axle/ImplementedAxle/BPAxle9]
+[2019.11.28-06.17.18:666][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPAxle9_Auto1F4C309F143112A6ADBAF08B0B13BC3CA.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Axle/ImplementedAxle/BPAxle9_Auto1.uasset'
+[2019.11.28-06.17.18:667][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Beam/BPBeam] ([1] browsable assets)...
+[2019.11.28-06.17.18:680][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Beam/BPBeam.BPBeam]
+[2019.11.28-06.17.18:680][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Beam/BPBeam]
+[2019.11.28-06.17.18:741][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPBeam_Auto1701064EE41387C941B63889B434CBE20.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Beam/BPBeam_Auto1.uasset'
+[2019.11.28-06.17.18:743][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Beam/ImplementedBeam/BPBeam11] ([1] browsable assets)...
+[2019.11.28-06.17.18:757][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Beam/ImplementedBeam/BPBeam11.BPBeam11]
+[2019.11.28-06.17.18:757][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Beam/ImplementedBeam/BPBeam11]
+[2019.11.28-06.17.18:825][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPBeam11_Auto12BC619824F71A11A7795C29EC88BAF0A.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Beam/ImplementedBeam/BPBeam11_Auto1.uasset'
+[2019.11.28-06.17.18:827][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Beam/ImplementedBeam/BPBeam3] ([1] browsable assets)...
+[2019.11.28-06.17.18:840][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Beam/ImplementedBeam/BPBeam3.BPBeam3]
+[2019.11.28-06.17.18:840][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Beam/ImplementedBeam/BPBeam3]
+[2019.11.28-06.17.18:902][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPBeam3_Auto14C7AD9D346F9386F848666B8DFF6F00D.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Beam/ImplementedBeam/BPBeam3_Auto1.uasset'
+[2019.11.28-06.17.18:903][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Beam/ImplementedBeam/BPBeam7] ([1] browsable assets)...
+[2019.11.28-06.17.18:917][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Beam/ImplementedBeam/BPBeam7.BPBeam7]
+[2019.11.28-06.17.18:917][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Beam/ImplementedBeam/BPBeam7]
+[2019.11.28-06.17.18:978][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPBeam7_Auto1E2D2DC964F4E589983EF56A9570972B1.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Beam/ImplementedBeam/BPBeam7_Auto1.uasset'
+[2019.11.28-06.17.18:980][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Connector/BPConnector] ([1] browsable assets)...
+[2019.11.28-06.17.18:992][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Connector/BPConnector.BPConnector]
+[2019.11.28-06.17.18:993][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Connector/BPConnector]
+[2019.11.28-06.17.19:051][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPConnector_Auto11E6ACE4547F27487595CDF870505825A.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Connector/BPConnector_Auto1.uasset'
+[2019.11.28-06.17.19:052][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Connector/ImplementedConnector/BPConnector2] ([1] browsable assets)...
+[2019.11.28-06.17.19:064][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Connector/ImplementedConnector/BPConnector2.BPConnector2]
+[2019.11.28-06.17.19:064][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Connector/ImplementedConnector/BPConnector2]
+[2019.11.28-06.17.19:126][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPConnector2_Auto102B888F84CFAA897ADE897AD20590163.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Connector/ImplementedConnector/BPConnector2_Auto1.uasset'
+[2019.11.28-06.17.19:127][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Connector/ImplementedConnector/BPConnector3] ([1] browsable assets)...
+[2019.11.28-06.17.19:140][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Connector/ImplementedConnector/BPConnector3.BPConnector3]
+[2019.11.28-06.17.19:140][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Connector/ImplementedConnector/BPConnector3]
+[2019.11.28-06.17.19:198][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPConnector3_Auto1424731614590FB82EC5F73B92DE94793.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Connector/ImplementedConnector/BPConnector3_Auto1.uasset'
+[2019.11.28-06.17.19:200][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Gear/BPGear] ([1] browsable assets)...
+[2019.11.28-06.17.19:212][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Gear/BPGear.BPGear]
+[2019.11.28-06.17.19:212][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Gear/BPGear]
+[2019.11.28-06.17.19:272][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPGear_Auto1D695A31E400E3761176CE09223F4DD14.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Gear/BPGear_Auto1.uasset'
+[2019.11.28-06.17.19:273][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Gear/ImplementedGear/BPGear24] ([1] browsable assets)...
+[2019.11.28-06.17.19:286][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Gear/ImplementedGear/BPGear24.BPGear24]
+[2019.11.28-06.17.19:286][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Gear/ImplementedGear/BPGear24]
+[2019.11.28-06.17.19:348][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPGear24_Auto1316EC70B4B9F61D0F807E5955576C200.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Gear/ImplementedGear/BPGear24_Auto1.uasset'
+[2019.11.28-06.17.19:349][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Gear/ImplementedGear/BPGear40] ([1] browsable assets)...
+[2019.11.28-06.17.19:364][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Gear/ImplementedGear/BPGear40.BPGear40]
+[2019.11.28-06.17.19:364][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Gear/ImplementedGear/BPGear40]
+[2019.11.28-06.17.19:427][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPGear40_Auto12D7EF7044BA54A08D7D5BD9B6D17F285.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Gear/ImplementedGear/BPGear40_Auto1.uasset'
+[2019.11.28-06.17.19:429][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Gear/ImplementedGear/BPGear8] ([1] browsable assets)...
+[2019.11.28-06.17.19:442][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Gear/ImplementedGear/BPGear8.BPGear8]
+[2019.11.28-06.17.19:442][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Gear/ImplementedGear/BPGear8]
+[2019.11.28-06.17.19:502][553]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPGear8_Auto15B795E4D4E413258DC48F9BBDFD6E9E4.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Gear/ImplementedGear/BPGear8_Auto1.uasset'
+[2019.11.28-06.17.19:505][553]LogFileHelpers: Auto-saving content packages took 1.735
+[2019.11.28-06.18.36:303][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.28-06.18.36:355][708]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink8ED2B4DB44F033EA8AA359A8D35B4AB0.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.28-06.18.37:698][864]BlueprintLog: New page: BPLink 컴파일
+[2019.11.28-06.18.37:738][864]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.11.28-06.20.20:461][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.28-06.20.20:552][977]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHole023D02594B3E02F5888A1683F9D9317E.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.28-06.20.21:112][ 42]BlueprintLog: New page: BPHole 컴파일
+[2019.11.28-06.20.21:334][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.11.28-06.20.25:508][537]LogTemp: Repeating last play command: VR 프리뷰
+[2019.11.28-06.20.25:536][537]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.28-06.20.25:536][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.28-06.20.25:536][537]LogHMD: Initializing OVRPlugin session
+[2019.11.28-06.20.25:619][537]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
+[2019.11.28-06.20.25:619][537]PIE: New page: PIE 세션: test2 (2019. 11. 29. 오전 12:20:25)
+[2019.11.28-06.20.25:619][537]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_test2
+[2019.11.28-06.20.25:626][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006825s)
+[2019.11.28-06.20.25:627][537]LogAIModule: Creating AISystem for world test2
+[2019.11.28-06.20.25:627][537]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2019.11.28-06.20.25:627][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/test2.test2 to /Game/UEDPIE_0_test2.test2 (0.008084s)
+[2019.11.28-06.20.25:655][537]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.11.28-06.20.25:664][537]LogInit: XAudio2 using '헤드폰(3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.28-06.20.25:677][537]LogInit: FAudioDevice initialized.
+[2019.11.28-06.20.25:684][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-06.20.25:686][537]LogLoad: Game class is 'GameModeBase'
+[2019.11.28-06.20.25:689][537]LogWorld: Bringing World /Game/UEDPIE_0_test2.test2 up for play (max tick rate 0) at 2019.11.28-15.20.25
+[2019.11.28-06.20.25:689][537]LogWorld: Bringing up level for play took: 0.002418
+[2019.11.28-06.20.25:690][537]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2019.11.28-06.20.25:695][537]PIE: /Game/UEDPIE_0_test2 에 대한 에디터에서 플레이 시작 시간: 1.031
+[2019.11.28-06.20.25:695][537]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.28-06.20.25:749][537]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
+[2019.11.28-06.20.55:320][ 79]LogBlueprintUserMessages: [None] BPGear40_2
+[2019.11.28-06.20.55:320][ 79]LogBlueprintUserMessages: [None] and
+[2019.11.28-06.20.55:320][ 79]LogBlueprintUserMessages: [None] BPAxle4_2
+[2019.11.28-06.20.55:334][ 81]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2019.11.28-06.20.59:287][436]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.28-06.20.59:311][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-06.20.59:311][436]LogWorld: BeginTearingDown for /Game/UEDPIE_0_test2
+[2019.11.28-06.20.59:359][436]LogSlate: Window 'K2016726054_1 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.11.28-06.20.59:361][436]LogWorld: UWorld::CleanupWorld for test2, bSessionEnded=true, bCleanupResources=true
+[2019.11.28-06.20.59:377][436]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.28-06.20.59:377][436]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.28-06.20.59:420][436]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2019.11.28-06.20.59:453][437]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.11.28-06.20.59:453][437]LogEngine: Changing dynamic resolution state.
+[2019.11.28-06.27.53:236][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2019.11.28-06.27.53:237][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.28-06.27.53:473][780]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/test2_Auto278C98C444A8830DA394BD59804DE4209.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto2.umap'
+[2019.11.28-06.27.53:479][780]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/test2' took 0.272
+[2019.11.28-06.27.53:479][780]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.272
+[2019.11.28-06.28.48:424][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.28-06.28.48:518][312]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHole829426E244D1AB66AA58F199028AC43B.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.28-06.28.49:434][418]BlueprintLog: New page: BPHole 컴파일
+[2019.11.28-06.28.49:663][418]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.11.28-06.30.19:010][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.28-06.30.19:097][953]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHoleECB7CB234308F27B82E0119BF64655F2.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.28-06.30.19:515][  0]BlueprintLog: New page: BPHole 컴파일
+[2019.11.28-06.30.19:734][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2019.11.28-06.32.16:643][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.28-06.32.16:704][925]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLinkCD4A4CB447AF91624FD56390547520A3.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.28-06.32.17:083][968]BlueprintLog: New page: BPLink 컴파일
+[2019.11.28-06.32.17:131][968]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2019.11.28-06.37.53:952][279]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2019.11.28-06.37.53:953][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.28-06.37.54:183][279]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/test2_Auto332F27AC342A78FD0C9FA5EBE1E928061.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto3.umap'
+[2019.11.28-06.37.54:187][279]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/test2' took 0.268
+[2019.11.28-06.37.54:187][279]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.268
+[2019.11.28-06.37.54:189][279]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Link/BPLink] ([1] browsable assets)...
+[2019.11.28-06.37.54:189][279]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Link/BPLink]
+[2019.11.28-06.37.54:249][279]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink_Auto3494AF0AA47E196A312F7FD8827F0A6B7.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Link/BPLink_Auto3.uasset'
+[2019.11.28-06.37.54:250][279]LogFileHelpers: Auto-saving content packages took 0.062
+[2019.11.28-06.49.11:211][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.11.28-06.49.11:212][ 56]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/test2' took 0.030
+[2019.11.28-06.49.11:213][ 56]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Link/BPLink] ([1] browsable assets)...
+[2019.11.28-06.49.11:213][ 56]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Link/BPLink]
+[2019.11.28-06.49.11:276][ 56]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink_Auto4912C688244170C824C57E69D9404DC0F.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/Blueprints/Link/BPLink_Auto4.uasset'
+[2019.11.28-06.49.11:277][ 56]LogFileHelpers: Auto-saving content packages took 0.065
+[2019.11.28-06.49.23:004][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.28-06.49.23:060][320]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink1BA82CC245C0F3761443B6948D2924FA.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.28-06.49.23:518][372]BlueprintLog: New page: BPLink 컴파일
+[2019.11.28-06.49.23:561][372]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2019.11.28-06.49.25:097][548]LogSlate: Window 'BPComponents' being destroyed
+[2019.11.28-06.49.25:100][548]LogSlate: Window 'BPComponents' being destroyed
+[2019.11.28-06.49.25:108][548]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2019.11.28-06.49.25:152][548]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.11.28-06.49.25:186][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.28-06.49.25:186][548]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2019.11.28-06.49.25:232][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.28-06.49.25:232][548]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2019.11.28-06.49.31:743][786]LogSlate: Window '부모 클래스 선택' being destroyed
+[2019.11.28-06.49.37:429][465]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Link/BPLink.BPLink
+[2019.11.28-06.51.03:864][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.28-06.51.03:923][810]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink1833A4A54C0E0359141CD7A2011B20AD.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.28-06.51.04:294][852]BlueprintLog: New page: BPLink 컴파일
+[2019.11.28-06.51.04:338][852]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.11.28-06.51.05:480][986]LogSlate: Window 'BPLink' being destroyed
+[2019.11.28-06.51.05:485][986]LogSlate: Window 'BPLink' being destroyed
+[2019.11.28-06.51.05:485][986]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2019.11.28-06.51.14:774][ 94]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Hole/BPHole.BPHole
+[2019.11.28-06.51.53:463][509]LogSlate: Window 'BPHole' being destroyed
+[2019.11.28-06.51.53:468][509]LogSlate: Window 'BPHole' being destroyed
+[2019.11.28-06.51.53:489][509]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2019.11.28-06.52.06:626][ 78]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BPComponents.BPComponents
+[2019.11.28-06.52.15:642][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.28-06.52.15:712][107]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponents0538E8A4491262FCF22D0EBEAF013B37.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.28-06.52.16:125][153]BlueprintLog: New page: BPComponents 컴파일
+[2019.11.28-06.52.16:381][153]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.11.28-06.52.26:907][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.28-06.52.26:972][399]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponents93DF0D284083BE1A93F12A83F5B1ED49.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.28-06.52.27:361][442]BlueprintLog: New page: BPComponents 컴파일
+[2019.11.28-06.52.27:620][442]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2019.11.28-06.53.20:811][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.28-06.53.20:876][718]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponents53BC0B6747F9567B53E03DAA56E29719.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.28-06.53.21:289][765]BlueprintLog: New page: BPComponents 컴파일
+[2019.11.28-06.53.21:552][765]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2019.11.28-06.55.10:326][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.28-06.55.10:393][615]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponents406DF56E40465AD97421AA9AAC1B5958.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.28-06.55.10:858][667]BlueprintLog: New page: BPComponents 컴파일
+[2019.11.28-06.55.11:119][667]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2019.11.28-06.55.25:080][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.28-06.55.25:147][324]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponentsBCDB5E2742124DE6DB0751A46C3B20DF.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.28-06.55.25:601][375]BlueprintLog: New page: BPComponents 컴파일
+[2019.11.28-06.55.25:861][375]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2019.11.28-06.55.27:889][613]LogSlate: Window 'BPComponents' being destroyed
+[2019.11.28-06.55.27:895][613]LogSlate: Window 'BPComponents' being destroyed
+[2019.11.28-06.55.27:915][613]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
