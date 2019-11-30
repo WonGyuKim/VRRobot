@@ -1,0 +1,1304 @@
+﻿Log file open, 11/26/19 15:11:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: K2016726054_1
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.669720
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.26-06.11.36:791][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.26-06.11.36:791][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.11.26-06.11.36:792][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.26-06.11.36:792][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.26-06.11.36:793][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.26-06.11.36:793][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.26-06.11.36:793][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.11.26-06.11.36:793][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.11.26-06.11.36:799][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.26-06.11.36:799][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.26-06.11.36:800][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.26-06.11.36:801][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.26-06.11.36:802][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.26-06.11.36:810][  0]LogHAL: Display: Platform has ~ 16 GB [17112195072 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.26-06.11.36:810][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.26-06.11.36:811][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.26-06.11.36:811][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.26-06.11.36:812][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.26-06.11.36:817][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.26-06.11.36:817][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.26-06.11.36:817][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.11.26-06.11.36:817][  0]LogInit: Computer: DESKTOP-B5TIVJA
+[2019.11.26-06.11.36:818][  0]LogInit: User: swconvergence01
+[2019.11.26-06.11.36:818][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.26-06.11.36:818][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.26-06.11.36:818][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.26-06.11.36:818][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.26-06.11.36:818][  0]LogMemory: Process Physical Memory: 108.80 MB used, 108.80 MB peak
+[2019.11.26-06.11.36:818][  0]LogMemory: Process Virtual Memory: 107.17 MB used, 107.17 MB peak
+[2019.11.26-06.11.36:818][  0]LogMemory: Physical Memory: 5368.55 MB used,  10950.91 MB free, 16319.46 MB total
+[2019.11.26-06.11.36:818][  0]LogMemory: Virtual Memory: 4699.57 MB used,  134213032.00 MB free, 134217728.00 MB total
+[2019.11.26-06.11.36:825][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.11.26-06.11.37:060][  0]LogInit: Using OS detected language (ko-KR).
+[2019.11.26-06.11.37:060][  0]LogInit: Using OS detected locale (ko-KR).
+[2019.11.26-06.11.37:061][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2019.11.26-06.11.37:235][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.26-06.11.37:333][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.26-06.11.37:333][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.26-06.11.39:275][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.26-06.11.39:352][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.11.26-06.11.39:352][  0]LogD3D11RHI:       8079/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.26-06.11.39:354][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.26-06.11.39:354][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.26-06.11.39:354][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.26-06.11.39:363][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.26-06.11.39:363][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.26-06.11.39:363][  0]LogWindows: EnumDisplayDevices:
+[2019.11.26-06.11.39:364][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.11.26-06.11.39:364][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.11.26-06.11.39:364][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.11.26-06.11.39:364][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.11.26-06.11.39:365][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.26-06.11.39:365][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.11.26-06.11.39:365][  0]LogD3D11RHI:   Driver Version: 431.07 (internal:26.21.14.3107, unified:431.07)
+[2019.11.26-06.11.39:365][  0]LogD3D11RHI:      Driver Date: 6-5-2019
+[2019.11.26-06.11.39:365][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.11.26-06.11.39:411][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.26-06.11.39:449][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.26-06.11.39:970][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.26-06.11.39:980][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.26-06.11.39:990][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.26-06.11.40:000][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.26-06.11.40:017][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.26-06.11.40:027][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.26-06.11.40:037][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.26-06.11.40:048][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.26-06.11.40:054][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.26-06.11.40:097][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.26-06.11.40:101][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.26-06.11.40:135][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.26-06.11.40:135][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.26-06.11.40:150][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.26-06.11.40:150][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.26-06.11.40:159][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.26-06.11.40:167][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.26-06.11.40:176][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.26-06.11.40:195][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.26-06.11.40:222][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.26-06.11.40:223][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.26-06.11.40:223][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.26-06.11.40:261][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.26-06.11.40:401][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Intermediate/Shaders/WorkingDirectory/15152/).
+[2019.11.26-06.11.40:401][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sw-convergence-01/AppData/Local/Temp/UnrealShaderWorkingDir/45A5C27E4C34B865F54DD89448D73458/'.
+[2019.11.26-06.11.40:405][  0]LogXGEController: Cleaning working directory: C:/Users/sw-convergence-01/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.26-06.11.40:405][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.26-06.11.40:406][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.26-06.11.40:406][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.26-06.11.42:564][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.26-06.11.42:802][  0]LogDerivedDataCache: Loaded boot cache 0.24s 76MB C:/Users/sw-convergence-01/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.26-06.11.42:802][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/sw-convergence-01/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.11.26-06.11.42:802][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sw-convergence-01/Desktop/VRRobot/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.26-06.11.42:802][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.26-06.11.42:802][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sw-convergence-01/Desktop/VRRobot/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.26-06.11.42:802][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.26-06.11.42:821][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.26-06.11.42:821][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.26-06.11.42:821][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.26-06.11.42:823][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sw-convergence-01/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.26-06.11.42:823][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.26-06.11.42:823][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.26-06.11.42:843][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.26-06.11.42:853][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.26-06.11.42:863][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.26-06.11.43:129][  0]LogAssetRegistry: FAssetRegistry took 0.0051 seconds to start up
+[2019.11.26-06.11.43:517][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.26-06.11.43:838][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.26-06.11.43:838][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.26-06.11.43:838][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.26-06.11.43:838][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.26-06.11.43:839][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.26-06.11.43:885][  0]LogNetVersion: K2016726054_1 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2024663954)
+[2019.11.26-06.11.44:853][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.060021 seconds
+[2019.11.26-06.11.44:860][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.11.26-06.11.44:860][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.11.26-06.11.44:860][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.26-06.11.48:006][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.26-06.11.48:014][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.26-06.11.48:132][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.11.26-06.11.48:133][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.11.26-06.11.48:150][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.11.26-06.11.48:155][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.11.26-06.11.48:453][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.26-06.11.48:623][  0]LogOcInput: OculusInput pre-init called
+[2019.11.26-06.11.49:338][  0]LogEngine: Initializing Engine...
+[2019.11.26-06.11.49:340][  0]LogHMD: Oculus plugin initialized. Version: 4.23.1-9631420+++UE4+Release-4.23, OVRPlugin: 1.37.0
+[2019.11.26-06.11.49:343][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2019.11.26-06.11.49:551][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.26-06.11.49:597][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.26-06.11.49:621][  0]LogInit: XAudio2 using '헤드폰(3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.26-06.11.49:640][  0]LogInit: FAudioDevice initialized.
+[2019.11.26-06.11.49:640][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.26-06.11.49:708][  0]LogDerivedDataCache: Saved boot cache 0.07s 76MB C:/Users/sw-convergence-01/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.26-06.11.49:716][  0]LogInit: Texture streaming: Enabled
+[2019.11.26-06.11.49:762][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.26-06.11.49:762][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2019.11.26-06.11.49:767][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2019.11.26-06.11.49:860][  0]LogInit: Transaction tracking system initialized
+[2019.11.26-06.11.49:980][  0]BlueprintLog: New page: 에디터 로드
+[2019.11.26-06.11.50:227][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.11.26-06.11.50:577][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sw-convergence-01/Desktop/VRRobot/Content/' took 0.01s
+[2019.11.26-06.11.50:577][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.26-06.11.50:577][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.26-06.11.51:052][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.11.26-06.11.51:054][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/test2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.26-06.11.51:055][  0]LightingResults: New page: 라이팅 빌드
+[2019.11.26-06.11.51:062][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-06.11.51:064][  0]MapCheck: New page: 맵 체크
+[2019.11.26-06.11.51:064][  0]LightingResults: New page: 라이팅 빌드
+[2019.11.26-06.11.51:091][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2019.11.26-06.11.51:896][  0]LogAIModule: Creating AISystem for world test2
+[2019.11.26-06.11.51:947][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.26-06.11.51:974][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2019.11.26-06.11.51:974][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.26-06.11.51:975][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.404ms.
+[2019.11.26-06.11.51:975][  0]LogFileHelpers: Loading map 'test2' took 0.921
+[2019.11.26-06.11.52:157][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-06.11.52:163][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-06.11.52:169][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-06.11.52:177][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-06.11.52:199][  0]LogCollectionManager: Loaded 0 collections in 0.001914 seconds
+[2019.11.26-06.11.52:225][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sw-convergence-01/Desktop/VRRobot/Saved/Collections/' took 0.00s
+[2019.11.26-06.11.52:225][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sw-convergence-01/Desktop/VRRobot/Content/Developers/swconvergence01/Collections/' took 0.00s
+[2019.11.26-06.11.52:225][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sw-convergence-01/Desktop/VRRobot/Content/Collections/' took 0.00s
+[2019.11.26-06.11.52:225][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.11.26-06.11.52:234][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2863 classes and 680 folders.
+[2019.11.26-06.11.52:249][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.26-06.11.52:550][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.26-06.11.52:566][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.11.26-06.11.52:731][  0]LogSlate: Took 0.005490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.26-06.11.52:750][  0]LogSlate: Took 0.018481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.11.26-06.11.52:767][  0]LogSlate: Took 0.016268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.11.26-06.11.52:772][  0]LogSlate: Took 0.004531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.26-06.11.52:781][  0]LogSlate: Took 0.005292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.26-06.11.52:929][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.11.26-06.11.53:005][  0]LogSlate: Took 0.005988 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.26-06.11.53:060][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.26-06.11.53:060][  0]LogLoad: (Engine Initialization) Total time: 20.12 seconds
+[2019.11.26-06.11.53:060][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.26-06.11.53:076][  0]LogOcInput: OculusInput is initialized
+[2019.11.26-06.11.53:116][  0]LogAssetRegistry: Asset discovery search completed in 9.9885 seconds
+[2019.11.26-06.11.53:119][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2019.11.26-06.11.53:119][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2019.11.26-06.11.53:123][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.26-06.11.58:181][596]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/sw-convergence-01/Desktop/VRRobot/Content/' took 5.10s
+[2019.11.26-06.12.03:415][222]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{57f2fc3d-bd75-484c-a66a-2f16fb8e114c} was removed. Shutting down audio device.
+[2019.11.26-06.12.03:428][222]LogInit: No audio devices found!
+[2019.11.26-06.12.03:544][236]LogInit: No audio devices found!
+[2019.11.26-06.12.53:065][178]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={A3F3AAAD-4F7C-58C6-C3CB-B8A46408BC32}
+[2019.11.26-06.13.02:632][323]LogInit: XAudio2 using '헤드폰(3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.26-06.13.03:009][324]LogInit: XAudio2 using '헤드폰(3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.26-06.14.34:915][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-06.14.35:157][227]LogTemp: Repeating last play command: VR 프리뷰
+[2019.11.26-06.14.35:176][227]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.14.35:177][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.26-06.14.35:177][227]LogHMD: Initializing OVRPlugin session
+[2019.11.26-06.14.35:273][227]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
+[2019.11.26-06.14.35:275][227]PIE: New page: PIE 세션: test2 (2019. 11. 27. 오전 12:14:35)
+[2019.11.26-06.14.35:276][227]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.11.26-06.14.35:278][227]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_test2
+[2019.11.26-06.14.35:288][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009790s)
+[2019.11.26-06.14.35:289][227]LogAIModule: Creating AISystem for world test2
+[2019.11.26-06.14.35:289][227]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2019.11.26-06.14.35:289][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/test2.test2 to /Game/UEDPIE_0_test2.test2 (0.011107s)
+[2019.11.26-06.14.35:312][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.11.26-06.14.35:323][227]LogInit: XAudio2 using '헤드폰(3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.26-06.14.35:335][227]LogInit: FAudioDevice initialized.
+[2019.11.26-06.14.35:343][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-06.14.35:369][227]LogLoad: Game class is 'GameModeBase'
+[2019.11.26-06.14.35:372][227]LogWorld: Bringing World /Game/UEDPIE_0_test2.test2 up for play (max tick rate 0) at 2019.11.26-15.14.35
+[2019.11.26-06.14.35:375][227]LogWorld: Bringing up level for play took: 0.004340
+[2019.11.26-06.14.35:375][227]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2019.11.26-06.14.35:387][227]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.11.26-06.14.35:391][227]PIE: /Game/UEDPIE_0_test2 에 대한 에디터에서 플레이 시작 시간: 0.632
+[2019.11.26-06.14.35:391][227]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.14.35:392][227]LogEngine: Changing dynamic resolution state.
+[2019.11.26-06.14.35:418][227]LogRenderer: Reallocating scene render targets to support 2688x1600 Format 10 NumSamples 1 (Frame:1).
+[2019.11.26-06.14.35:418][227]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
+[2019.11.26-06.15.26:268][802]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.15.26:288][802]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-06.15.26:288][802]LogWorld: BeginTearingDown for /Game/UEDPIE_0_test2
+[2019.11.26-06.15.26:328][802]LogSlate: Window 'K2016726054_1 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.11.26-06.15.26:331][802]LogWorld: UWorld::CleanupWorld for test2, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-06.15.26:340][802]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-06.15.26:340][802]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.15.26:369][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2019.11.26-06.15.26:384][803]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.11.26-06.15.26:385][803]LogEngine: Changing dynamic resolution state.
+[2019.11.26-06.21.05:580][469]LogSlate: Took 0.004350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.26-06.21.05:589][469]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Hole/BPHole.BPHole
+[2019.11.26-06.21.05:911][469]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2019.11.26-06.21.06:749][469]LogSlate: Took 0.004947 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.26-06.21.06:850][470]LogSlate: Took 0.005322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.26-06.22.46:319][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.26-06.22.46:419][289]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHole63F5D20C4664AA0E22C9C9A944677AFB.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.26-06.22.46:679][317]BlueprintLog: New page: BPHole 컴파일
+[2019.11.26-06.22.46:903][317]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2019.11.26-06.22.52:094][924]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.11.26-06.22.52:097][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.26-06.22.52:314][924]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/test2_Auto1BF0B870048E9C9596D53F9A7828ABCA2.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto1.umap'
+[2019.11.26-06.22.52:317][924]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/test2' took 0.247
+[2019.11.26-06.22.52:317][924]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.247
+[2019.11.26-06.22.53:755][ 85]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BPComponents.BPComponents
+[2019.11.26-06.23.27:140][ 36]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Link/BPLink.BPLink
+[2019.11.26-06.23.29:181][246]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-06.23.29:231][246]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Link/BPLink.BPLink
+[2019.11.26-06.24.22:353][562]LogSlate: Took 0.006988 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.11.26-06.24.43:219][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.26-06.24.43:274][ 48]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLinkE6375C494D49386DEBC45DB9386E6D4C.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.26-06.24.43:789][107]BlueprintLog: New page: BPLink 컴파일
+[2019.11.26-06.24.43:944][107]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2019.11.26-06.27.22:714][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.26-06.27.22:790][989]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink1DE2927F4347CFF452458CA757752D2E.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.26-06.27.23:398][ 54]BlueprintLog: New page: BPLink 컴파일
+[2019.11.26-06.27.23:575][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2019.11.26-06.28.18:677][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.26-06.28.18:743][518]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponentsEDD459D3433311D465BF01A567A95803.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.26-06.28.19:117][553]BlueprintLog: New page: BPComponents 컴파일
+[2019.11.26-06.28.19:531][553]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2019.11.26-06.28.43:171][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.26-06.28.43:232][330]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponentsFA0BF84641B160FF65CA228304E05107.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.26-06.28.43:868][404]BlueprintLog: New page: BPComponents 컴파일
+[2019.11.26-06.28.44:031][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole_GEN_VARIABLE_BPConnHole_C_CAT_3584 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:032][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole1_GEN_VARIABLE_BPConnHole_C_CAT_3587 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:032][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole2_GEN_VARIABLE_BPConnHole_C_CAT_3592 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:033][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole3_GEN_VARIABLE_BPConnHole_C_CAT_3605 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:033][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole4_GEN_VARIABLE_BPConnHole_C_CAT_3614 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:033][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole5_GEN_VARIABLE_BPConnHole_C_CAT_3625 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:034][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole6_GEN_VARIABLE_BPConnHole_C_CAT_3638 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:034][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole7_GEN_VARIABLE_BPConnHole_C_CAT_3653 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:035][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole8_GEN_VARIABLE_BPConnHole_C_CAT_3670 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:035][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole9_GEN_VARIABLE_BPConnHole_C_CAT_3707 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:035][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole10_GEN_VARIABLE_BPConnHole_C_CAT_3748 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:037][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole_GEN_VARIABLE_BPConnHole_C_CAT_3217 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:037][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole1_GEN_VARIABLE_BPConnHole_C_CAT_3220 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:038][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole2_GEN_VARIABLE_BPConnHole_C_CAT_3229 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:040][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole_GEN_VARIABLE_BPConnHole_C_CAT_3306 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:040][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole1_GEN_VARIABLE_BPConnHole_C_CAT_3309 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:040][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole2_GEN_VARIABLE_BPConnHole_C_CAT_3314 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:041][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole3_GEN_VARIABLE_BPConnHole_C_CAT_3319 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:041][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole4_GEN_VARIABLE_BPConnHole_C_CAT_3338 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:042][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole5_GEN_VARIABLE_BPConnHole_C_CAT_3359 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:042][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole6_GEN_VARIABLE_BPConnHole_C_CAT_3497 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:044][404]LogActor: Warning: BPAxleHole_C /Game/test2.test2:PersistentLevel.BPAxleHole_GEN_VARIABLE_BPAxleHole_C_CAT_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:044][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole_GEN_VARIABLE_BPConnHole_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:045][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole1_GEN_VARIABLE_BPConnHole_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:045][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole2_GEN_VARIABLE_BPConnHole_C_CAT_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:046][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole3_GEN_VARIABLE_BPConnHole_C_CAT_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:049][404]LogActor: Warning: BPAxleHole_C /Game/test2.test2:PersistentLevel.BPAxleHole_GEN_VARIABLE_BPAxleHole_C_CAT_184 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:050][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole_GEN_VARIABLE_BPConnHole_C_CAT_579 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:050][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole1_GEN_VARIABLE_BPConnHole_C_CAT_582 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:050][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole2_GEN_VARIABLE_BPConnHole_C_CAT_587 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:051][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole3_GEN_VARIABLE_BPConnHole_C_CAT_594 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:051][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole4_GEN_VARIABLE_BPConnHole_C_CAT_603 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:051][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole5_GEN_VARIABLE_BPConnHole_C_CAT_614 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:052][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole6_GEN_VARIABLE_BPConnHole_C_CAT_627 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:052][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole7_GEN_VARIABLE_BPConnHole_C_CAT_642 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:052][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole8_GEN_VARIABLE_BPConnHole_C_CAT_2307 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:053][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole9_GEN_VARIABLE_BPConnHole_C_CAT_2345 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:053][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole10_GEN_VARIABLE_BPConnHole_C_CAT_2387 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:053][404]LogActor: Warning: BPConnHole_C /Game/test2.test2:PersistentLevel.BPConnHole11_GEN_VARIABLE_BPConnHole_C_CAT_2433 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:054][404]LogActor: Warning: BPAxleHole_C /Game/test2.test2:PersistentLevel.BPAxleHole_GEN_VARIABLE_BPAxleHole_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.26-06.28.44:227][404]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2019.11.26-06.28.50:994][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.26-06.28.51:054][199]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponents657CD466496D33593BE30295E6E8A18C.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.26-06.28.51:449][244]BlueprintLog: New page: BPComponents 컴파일
+[2019.11.26-06.28.51:728][244]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2019.11.26-06.30.11:569][722]LogEditorTransaction: Undo 노드 이동
+[2019.11.26-06.30.11:953][761]LogEditorTransaction: Undo 경유 노드 생성
+[2019.11.26-06.30.12:318][801]LogEditorTransaction: Undo 노드 이동
+[2019.11.26-06.30.32:516][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.26-06.30.32:577][165]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponentsA573E5614DB5E196F38B5FAB227ACA2D.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.26-06.30.32:921][204]BlueprintLog: New page: BPComponents 컴파일
+[2019.11.26-06.30.33:198][204]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2019.11.26-06.31.01:550][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.26-06.31.01:612][538]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponentsC34340BC4B4165D2B51508A563A9B360.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.26-06.31.01:914][572]BlueprintLog: New page: BPComponents 컴파일
+[2019.11.26-06.31.02:189][572]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2019.11.26-06.31.31:888][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.26-06.31.31:940][263]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink1A4CC0724523CFD913C498B465B01DB2.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.26-06.31.32:665][348]BlueprintLog: New page: BPLink 컴파일
+[2019.11.26-06.31.32:824][348]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2019.11.26-06.33.27:396][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.26-06.33.27:448][ 36]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink02158BE444C9A750C5EC668C02402EA7.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.26-06.33.27:821][ 76]BlueprintLog: New page: BPLink 컴파일
+[2019.11.26-06.33.27:981][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2019.11.26-06.33.40:803][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.26-06.33.40:854][577]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLinkAEEDB1E044C085385EC97DBE9A65D38A.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.26-06.33.41:253][622]BlueprintLog: New page: BPLink 컴파일
+[2019.11.26-06.33.41:410][622]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2019.11.26-06.33.42:365][725]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.11.26-06.33.42:366][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.26-06.33.42:589][725]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/test2_Auto2601CAE64420A6C96DD1A2F9B26A71DAF.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto2.umap'
+[2019.11.26-06.33.42:593][725]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/test2' took 0.256
+[2019.11.26-06.33.42:593][725]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.256
+[2019.11.26-06.36.09:800][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.26-06.36.09:852][382]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink35CE42F546D0349372A572884C00430A.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.26-06.36.10:365][441]BlueprintLog: New page: BPLink 컴파일
+[2019.11.26-06.36.10:524][441]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2019.11.26-06.39.12:787][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.26-06.39.12:845][496]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLinkA3B5159C4C7231E08C2661AD9B0C92D5.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.26-06.39.13:235][539]BlueprintLog: New page: BPLink 컴파일
+[2019.11.26-06.39.13:396][539]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2019.11.26-06.39.58:600][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.26-06.39.58:684][429]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHole490F790640BFD66C4032509257B3BF39.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.26-06.39.59:228][492]BlueprintLog: New page: BPHole 컴파일
+[2019.11.26-06.39.59:239][492]LogBlueprint: Error: [Compiler BPHole] ' Spawn Transform ' 핀의 현재 값이 유효하지 않습니다: 'Spawn Transform' 핀에는 반드시 입력이 연결되어 있어야 합니다 ("by ref" 파라미터는 작업하기에 유효한 입력을 기대합니다).
+[2019.11.26-06.39.59:240][492]LogBlueprint: Error: [Compiler BPHole] ' Spawn Transform ' 핀의 현재 값이 유효하지 않습니다: 'Spawn Transform' 핀에는 반드시 입력이 연결되어 있어야 합니다 ("by ref" 파라미터는 작업하기에 유효한 입력을 기대합니다).
+[2019.11.26-06.39.59:421][492]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2019.11.26-06.40.25:225][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.26-06.40.25:311][533]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHoleC9C92128401EC871ADC746AD7251FB18.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.26-06.40.25:699][577]BlueprintLog: New page: BPHole 컴파일
+[2019.11.26-06.40.25:712][577]LogBlueprint: Error: [Compiler BPHole] ' Spawn Transform ' 핀의 현재 값이 유효하지 않습니다: 'Spawn Transform' 핀에는 반드시 입력이 연결되어 있어야 합니다 ("by ref" 파라미터는 작업하기에 유효한 입력을 기대합니다).
+[2019.11.26-06.40.25:712][577]LogBlueprint: Error: [Compiler BPHole] ' Spawn Transform ' 핀의 현재 값이 유효하지 않습니다: 'Spawn Transform' 핀에는 반드시 입력이 연결되어 있어야 합니다 ("by ref" 파라미터는 작업하기에 유효한 입력을 기대합니다).
+[2019.11.26-06.40.25:884][577]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2019.11.26-06.42.26:348][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.26-06.42.26:435][910]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHole3733268B46023A2A94F21CAFBAAD556B.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.26-06.42.26:772][947]BlueprintLog: New page: BPHole 컴파일
+[2019.11.26-06.42.26:993][947]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2019.11.26-06.42.32:228][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.26-06.42.32:279][563]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLinkF8E57E20414A3DC60DD193B90D5D7535.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.26-06.42.32:876][632]BlueprintLog: New page: BPLink 컴파일
+[2019.11.26-06.42.33:038][632]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2019.11.26-06.42.35:761][948]LogTemp: Repeating last play command: VR 프리뷰
+[2019.11.26-06.42.35:785][948]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.42.35:785][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.26-06.42.35:785][948]LogHMD: Initializing OVRPlugin session
+[2019.11.26-06.42.35:910][948]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
+[2019.11.26-06.42.35:910][948]PIE: New page: PIE 세션: test2 (2019. 11. 27. 오전 12:42:35)
+[2019.11.26-06.42.35:911][948]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_test2
+[2019.11.26-06.42.35:918][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006975s)
+[2019.11.26-06.42.35:918][948]LogAIModule: Creating AISystem for world test2
+[2019.11.26-06.42.35:918][948]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2019.11.26-06.42.35:918][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/test2.test2 to /Game/UEDPIE_0_test2.test2 (0.007936s)
+[2019.11.26-06.42.35:947][948]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2019.11.26-06.42.35:956][948]LogInit: XAudio2 using '헤드폰(3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.26-06.42.35:967][948]LogInit: FAudioDevice initialized.
+[2019.11.26-06.42.35:975][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-06.42.35:994][948]LogLoad: Game class is 'GameModeBase'
+[2019.11.26-06.42.35:996][948]LogWorld: Bringing World /Game/UEDPIE_0_test2.test2 up for play (max tick rate 0) at 2019.11.26-15.42.35
+[2019.11.26-06.42.35:996][948]LogWorld: Bringing up level for play took: 0.002056
+[2019.11.26-06.42.35:997][948]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2019.11.26-06.42.36:001][948]PIE: /Game/UEDPIE_0_test2 에 대한 에디터에서 플레이 시작 시간: -0.757
+[2019.11.26-06.42.36:001][948]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.42.36:002][948]LogEngine: Changing dynamic resolution state.
+[2019.11.26-06.42.36:003][948]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
+[2019.11.26-06.42.54:584][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.42.54:604][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-06.42.54:604][585]LogWorld: BeginTearingDown for /Game/UEDPIE_0_test2
+[2019.11.26-06.42.54:650][585]LogSlate: Window 'K2016726054_1 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.11.26-06.42.54:652][585]LogWorld: UWorld::CleanupWorld for test2, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-06.42.54:670][585]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-06.42.54:671][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.42.54:717][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.11.26-06.42.54:739][586]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.11.26-06.42.54:739][586]LogEngine: Changing dynamic resolution state.
+[2019.11.26-06.44.01:570][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.11.26-06.44.01:571][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.26-06.44.01:833][749]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/test2_Auto387C0DCAA45E8766B45E2028D9912970F.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto3.umap'
+[2019.11.26-06.44.01:841][749]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/test2' took 0.302
+[2019.11.26-06.44.01:841][749]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.302
+[2019.11.26-06.44.35:036][440]LogTemp: Repeating last play command: VR 프리뷰
+[2019.11.26-06.44.35:056][440]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.44.35:056][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.26-06.44.35:056][440]LogHMD: Initializing OVRPlugin session
+[2019.11.26-06.44.35:147][440]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
+[2019.11.26-06.44.35:147][440]PIE: New page: PIE 세션: test2 (2019. 11. 27. 오전 12:44:35)
+[2019.11.26-06.44.35:148][440]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_test2
+[2019.11.26-06.44.35:157][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009322s)
+[2019.11.26-06.44.35:159][440]LogAIModule: Creating AISystem for world test2
+[2019.11.26-06.44.35:159][440]LogPlayLevel: PIE: World Init took: (0.002004s)
+[2019.11.26-06.44.35:159][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/test2.test2 to /Game/UEDPIE_0_test2.test2 (0.011547s)
+[2019.11.26-06.44.35:196][440]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.11.26-06.44.35:206][440]LogInit: XAudio2 using '헤드폰(3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.26-06.44.35:219][440]LogInit: FAudioDevice initialized.
+[2019.11.26-06.44.35:227][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-06.44.35:250][440]LogLoad: Game class is 'GameModeBase'
+[2019.11.26-06.44.35:252][440]LogWorld: Bringing World /Game/UEDPIE_0_test2.test2 up for play (max tick rate 0) at 2019.11.26-15.44.35
+[2019.11.26-06.44.35:253][440]LogWorld: Bringing up level for play took: 0.002196
+[2019.11.26-06.44.35:253][440]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2019.11.26-06.44.35:260][440]PIE: /Game/UEDPIE_0_test2 에 대한 에디터에서 플레이 시작 시간: 0.502
+[2019.11.26-06.44.35:260][440]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.44.35:261][440]LogEngine: Changing dynamic resolution state.
+[2019.11.26-06.44.35:262][440]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
+[2019.11.26-06.44.53:567][ 62]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.44.53:587][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-06.44.53:587][ 62]LogWorld: BeginTearingDown for /Game/UEDPIE_0_test2
+[2019.11.26-06.44.53:639][ 62]LogSlate: Window 'K2016726054_1 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.11.26-06.44.53:641][ 62]LogWorld: UWorld::CleanupWorld for test2, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-06.44.53:660][ 62]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-06.44.53:660][ 62]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.44.53:704][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2019.11.26-06.44.53:735][ 63]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.11.26-06.44.53:735][ 63]LogEngine: Changing dynamic resolution state.
+[2019.11.26-06.44.58:196][531]LogTemp: Repeating last play command: VR 프리뷰
+[2019.11.26-06.44.58:212][531]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.44.58:212][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.26-06.44.58:212][531]LogHMD: Initializing OVRPlugin session
+[2019.11.26-06.44.58:307][531]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
+[2019.11.26-06.44.58:308][531]PIE: New page: PIE 세션: test2 (2019. 11. 27. 오전 12:44:58)
+[2019.11.26-06.44.58:308][531]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_test2
+[2019.11.26-06.44.58:318][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009381s)
+[2019.11.26-06.44.58:319][531]LogAIModule: Creating AISystem for world test2
+[2019.11.26-06.44.58:319][531]LogPlayLevel: PIE: World Init took: (0.001217s)
+[2019.11.26-06.44.58:319][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/test2.test2 to /Game/UEDPIE_0_test2.test2 (0.010773s)
+[2019.11.26-06.44.58:360][531]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2019.11.26-06.44.58:372][531]LogInit: XAudio2 using '헤드폰(3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.26-06.44.58:382][531]LogInit: FAudioDevice initialized.
+[2019.11.26-06.44.58:390][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-06.44.58:418][531]LogLoad: Game class is 'GameModeBase'
+[2019.11.26-06.44.58:421][531]LogWorld: Bringing World /Game/UEDPIE_0_test2.test2 up for play (max tick rate 0) at 2019.11.26-15.44.58
+[2019.11.26-06.44.58:422][531]LogWorld: Bringing up level for play took: 0.002738
+[2019.11.26-06.44.58:422][531]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2019.11.26-06.44.58:428][531]PIE: /Game/UEDPIE_0_test2 에 대한 에디터에서 플레이 시작 시간: -0.331
+[2019.11.26-06.44.58:428][531]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.44.58:429][531]LogEngine: Changing dynamic resolution state.
+[2019.11.26-06.44.58:430][531]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
+[2019.11.26-06.45.13:731][718]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.26-06.45.38:220][747]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-06.45.38:315][760]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.45.38:347][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-06.45.38:347][760]LogWorld: BeginTearingDown for /Game/UEDPIE_0_test2
+[2019.11.26-06.45.38:362][760]LogSlate: Window 'K2016726054_1 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.11.26-06.45.38:364][760]LogWorld: UWorld::CleanupWorld for test2, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-06.45.38:386][760]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-06.45.38:386][760]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.45.38:425][760]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2019.11.26-06.45.38:461][761]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.11.26-06.45.38:462][761]LogEngine: Changing dynamic resolution state.
+[2019.11.26-06.45.56:886][ 54]LogSlate: Window '색 선택 툴' being destroyed
+[2019.11.26-06.45.58:290][203]LogHttp: Warning: 000001BC2EFE3600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD670924C-41C3-C057-BF72-F7BC6CB67C09%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=7d0c52ad43db9ba3c20c9d803791780e%7C20767ea79fb84260bf5c17cb9a09313a%7C21ac0887-92d2-4c12-9d08-7e9c1126acd8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.11.26-06.45.58:290][203]LogHttp: Warning: 000001BC2EFE3600: request failed, libcurl error: 0 (No error)
+[2019.11.26-06.45.58:290][203]LogHttp: Warning: 000001BC2EFE3600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1bc3c3d3f70 [can pipeline])
+[2019.11.26-06.45.58:290][203]LogHttp: Warning: 000001BC2EFE3600: libcurl info message cache 1 (Re-using existing connection! (#7) with host datarouter.ol.epicgames.com)
+[2019.11.26-06.45.58:290][203]LogHttp: Warning: 000001BC2EFE3600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.194.74.77) port 443 (#7))
+[2019.11.26-06.45.58:290][203]LogHttp: Warning: 000001BC2EFE3600: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.11.26-06.45.58:290][203]LogHttp: Warning: 000001BC2EFE3600: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.11.26-06.45.58:290][203]LogHttp: Warning: 000001BC2EFE3600: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.11.26-06.45.58:290][203]LogHttp: Warning: 000001BC2EFE3600: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.11.26-06.45.58:290][203]LogHttp: Warning: 000001BC2EFE3600: libcurl info message cache 7 (Closing connection 7)
+[2019.11.26-06.45.58:290][203]LogHttp: Warning: 000001BC2EFE3600: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.11.26-06.45.58:302][204]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD670924C-41C3-C057-BF72-F7BC6CB67C09%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=7d0c52ad43db9ba3c20c9d803791780e%7C20767ea79fb84260bf5c17cb9a09313a%7C21ac0887-92d2-4c12-9d08-7e9c1126acd8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.11.26-06.46.03:129][216]LogSlate: Window '색 선택 툴' being destroyed
+[2019.11.26-06.46.04:481][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.26-06.46.04:551][361]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink26FF98204596FF764090DFAA82F035D7.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.26-06.46.05:299][430]BlueprintLog: New page: BPLink 컴파일
+[2019.11.26-06.46.05:493][430]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2019.11.26-06.46.29:678][468]LogSlate: Window '색 선택 툴' being destroyed
+[2019.11.26-06.46.34:090][915]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.26-06.46.34:153][915]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLinkD464DB1C497D1C4607141F8FCF574A3B.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.26-06.46.34:862][982]BlueprintLog: New page: BPLink 컴파일
+[2019.11.26-06.46.35:056][982]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2019.11.26-06.46.35:885][ 61]LogTemp: Repeating last play command: VR 프리뷰
+[2019.11.26-06.46.35:904][ 61]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.46.35:904][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.26-06.46.35:904][ 61]LogHMD: Initializing OVRPlugin session
+[2019.11.26-06.46.36:000][ 61]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
+[2019.11.26-06.46.36:001][ 61]PIE: New page: PIE 세션: test2 (2019. 11. 27. 오전 12:46:36)
+[2019.11.26-06.46.36:001][ 61]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_test2
+[2019.11.26-06.46.36:014][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012670s)
+[2019.11.26-06.46.36:015][ 61]LogAIModule: Creating AISystem for world test2
+[2019.11.26-06.46.36:015][ 61]LogPlayLevel: PIE: World Init took: (0.001215s)
+[2019.11.26-06.46.36:015][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/test2.test2 to /Game/UEDPIE_0_test2.test2 (0.014070s)
+[2019.11.26-06.46.36:052][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2019.11.26-06.46.36:063][ 61]LogInit: XAudio2 using '헤드폰(3- Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.26-06.46.36:076][ 61]LogInit: FAudioDevice initialized.
+[2019.11.26-06.46.36:084][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-06.46.36:112][ 61]LogLoad: Game class is 'GameModeBase'
+[2019.11.26-06.46.36:115][ 61]LogWorld: Bringing World /Game/UEDPIE_0_test2.test2 up for play (max tick rate 0) at 2019.11.26-15.46.36
+[2019.11.26-06.46.36:116][ 61]LogWorld: Bringing up level for play took: 0.002699
+[2019.11.26-06.46.36:116][ 61]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2019.11.26-06.46.36:122][ 61]PIE: /Game/UEDPIE_0_test2 에 대한 에디터에서 플레이 시작 시간: -0.637
+[2019.11.26-06.46.36:122][ 61]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.46.36:123][ 61]LogEngine: Changing dynamic resolution state.
+[2019.11.26-06.46.36:124][ 61]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
+[2019.11.26-06.46.48:481][131]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.26-06.47.04:550][899]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.47.04:576][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-06.47.04:576][899]LogWorld: BeginTearingDown for /Game/UEDPIE_0_test2
+[2019.11.26-06.47.04:592][899]LogSlate: Window 'K2016726054_1 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.11.26-06.47.04:594][899]LogWorld: UWorld::CleanupWorld for test2, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-06.47.04:608][899]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-06.47.04:608][899]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/test2.test2:PersistentLevel' has LevelScriptBlueprint '/Game/test2.test2:PersistentLevel.test2' with GeneratedClass '/Game/test2.test2_C' with ClassGeneratedBy '/Game/test2.test2:PersistentLevel.test2'
+[2019.11.26-06.47.04:654][899]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2019.11.26-06.47.04:671][900]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.11.26-06.47.04:672][900]LogEngine: Changing dynamic resolution state.
+[2019.11.26-06.50.53:359][695]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.26-06.51.14:560][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.26-06.51.14:650][180]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHoleBA3516794EEC6BA2B363B69DBADF88D9.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.26-06.51.15:332][259]BlueprintLog: New page: BPHole 컴파일
+[2019.11.26-06.51.15:341][259]LogBlueprint: Error: [Compiler BPHole] Construct Object from Class  에서 '/Game/Blueprints/Link/BPLink.BPLink_C' 유형 오브젝트를 구성할 수 없습니다.
+[2019.11.26-06.51.15:341][259]LogBlueprint: Error: [Compiler BPHole] Construct Object from Class  에 Outer 오브젝트가 필요합니다.
+[2019.11.26-06.51.15:541][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.11.26-06.52.10:946][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.26-06.52.11:028][706]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHole464D04754D9654D96D461288738E5C29.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.26-06.52.11:693][782]BlueprintLog: New page: BPHole 컴파일
+[2019.11.26-06.52.11:700][782]LogBlueprint: Error: [Compiler BPHole] Construct Object from Class  에서 '/Game/Blueprints/Link/BPLink.BPLink_C' 유형 오브젝트를 구성할 수 없습니다.
+[2019.11.26-06.52.11:888][782]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2019.11.26-06.53.09:913][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.26-06.53.09:996][839]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHoleA917DD1C470D02FDF56D16BE2C5F2B23.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.26-06.53.10:493][895]BlueprintLog: New page: BPHole 컴파일
+[2019.11.26-06.53.10:501][895]LogBlueprint: Error: [Compiler BPHole] Construct Object from Class  에서 '/Game/Blueprints/Link/BPLink.BPLink_C' 유형 오브젝트를 구성할 수 없습니다.
+[2019.11.26-06.53.10:693][895]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2019.11.26-06.53.53:126][928]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.26-06.55.29:425][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.11.26-06.55.29:426][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.26-06.55.29:697][821]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/test2_Auto49842693E48F327D925ED079C6C98124C.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto4.umap'
+[2019.11.26-06.55.29:701][821]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/test2' took 0.312
+[2019.11.26-06.55.29:701][821]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.312
+[2019.11.26-06.57.08:643][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.26-06.57.08:740][186]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHole2556243D4E7D26A8A297C3AAF4BC444D.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.26-06.57.09:218][239]BlueprintLog: New page: BPHole 컴파일
+[2019.11.26-06.57.09:227][239]LogBlueprint: Error: [Compiler BPHole] Construct Object from Class  에서 '/Game/Blueprints/Link/BPLink.BPLink_C' 유형 오브젝트를 구성할 수 없습니다.
+[2019.11.26-06.57.09:422][239]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.11.26-07.00.08:029][277]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Link/NewFunctionLibrary.NewFunctionLibrary
+[2019.11.26-07.00.29:159][138]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.11.26-07.00.30:388][138]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.26-07.00.30:740][138]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-07.00.30:757][138]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/Link/NewFunctionLibrary.NewFunctionLibrary
+[2019.11.26-07.00.31:531][138]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2019.11.26-07.01.09:782][111]LogSlate: Window '부모 클래스 선택' being destroyed
+[2019.11.26-07.02.24:599][978]LogSlate: Window '부모 클래스 선택' being destroyed
+[2019.11.26-07.02.33:198][621]LogSlate: Window '부모 클래스 선택' being destroyed
+[2019.11.26-07.02.37:465][119]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.26-07.02.48:695][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.26-07.02.48:786][433]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHole6C64148149989772CB7949A0BAFF5318.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.26-07.02.49:250][485]BlueprintLog: New page: BPHole 컴파일
+[2019.11.26-07.02.49:261][485]LogBlueprint: Warning: [Compiler BPHole] 기본값이 아닌  Instigator  입력 핀이  Construct Object from Class  노드에 더 이상 존재하지 않습니다. 노드를 새로고치거나 핀을 기본값으로 리셋시켜 제거하세요.
+[2019.11.26-07.02.49:507][485]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.11.26-07.03.11:857][122]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.26-07.03.24:987][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.26-07.03.25:069][669]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHole191A9FE943153F0B977F9F8FDC666023.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.26-07.03.25:518][719]BlueprintLog: New page: BPHole 컴파일
+[2019.11.26-07.03.25:526][719]LogBlueprint: Error: [Compiler BPHole] Construct Object from Class  에서 '/Game/Blueprints/Link/BPLink.BPLink_C' 유형 오브젝트를 구성할 수 없습니다.
+[2019.11.26-07.03.25:721][719]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2019.11.26-07.03.45:195][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2019.11.26-07.03.53:718][ 17]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.26-07.03.54:064][ 17]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/Link/test.test
+[2019.11.26-07.03.54:422][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.11.26-07.03.55:905][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.26-07.03.55:993][185]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHole5F51A2A7496FD1EAD7587C911F7E41E1.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.26-07.03.56:917][291]BlueprintLog: New page: BPHole 컴파일
+[2019.11.26-07.03.56:926][291]LogBlueprint: Error: [Compiler BPHole] Construct Object from Class  에서 '/Game/Blueprints/Link/BPLink.BPLink_C' 유형 오브젝트를 구성할 수 없습니다.
+[2019.11.26-07.03.57:114][291]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2019.11.26-07.04.05:840][315]LogWindows: Warning: CreateProc failed: 지정된 파일을 찾을 수 없습니다. (0x00000002)
+[2019.11.26-07.04.05:840][315]LogWindows: Warning: URL: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe 
+[2019.11.26-07.04.05:840][315]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.11.26-07.04.05:845][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:845][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:845][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:845][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:845][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:845][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:846][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:846][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:846][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:846][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:846][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:846][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:846][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:846][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:846][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:847][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:847][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:847][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:847][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:847][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:847][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:847][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:847][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:847][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:848][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:848][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:848][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:848][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:848][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:848][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:848][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:848][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:848][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:849][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:849][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:849][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:849][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:849][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:849][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:849][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:849][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:849][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:849][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:850][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:850][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:850][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:850][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:850][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:850][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:850][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:850][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:850][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:850][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:851][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:851][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:851][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:851][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:851][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:851][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:851][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:851][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:851][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:851][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:851][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:852][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:852][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:852][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:852][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:852][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:852][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:852][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:852][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:852][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:852][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:852][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:852][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:853][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:853][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:853][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:853][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:853][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:853][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:853][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:853][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:853][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:853][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:854][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:854][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:854][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:854][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:854][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:854][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:854][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:854][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:854][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:854][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:854][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:855][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:855][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:855][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:855][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:855][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:855][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:855][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:855][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:855][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:855][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:855][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:856][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:856][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:856][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:856][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:856][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:856][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:856][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:856][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:856][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:857][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:857][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:857][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:857][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:857][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:857][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:857][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:857][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:857][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:857][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:857][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:858][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:863][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:866][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:870][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:870][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:875][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:899][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:954][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:972][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:978][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:978][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:982][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:986][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:990][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.05:991][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:006][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:006][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:006][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:006][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:008][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:008][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:009][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:009][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:009][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:009][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:009][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:009][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:009][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:009][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:009][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:010][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:010][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:010][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:010][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:010][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:010][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:010][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:010][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:010][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:011][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:011][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:011][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:011][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:011][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:011][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:011][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:011][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:011][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:012][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:012][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:012][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:012][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:012][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:012][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:012][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:012][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:012][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:013][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:013][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:013][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:013][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:013][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:013][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:013][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:013][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:013][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:014][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:014][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:014][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:014][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:014][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:014][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:014][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:014][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:014][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:015][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:015][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:015][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:015][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:015][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:015][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:015][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:015][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:015][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:016][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:016][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:016][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:016][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:016][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:016][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:016][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:016][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:016][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:017][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:017][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:017][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:017][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:017][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:017][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:017][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:017][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:017][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:018][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:018][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:018][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:018][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:018][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:018][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:018][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:018][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:018][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:018][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:019][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:019][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:019][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:019][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:019][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:019][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:019][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:019][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:019][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:019][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:019][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:020][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:020][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:020][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:020][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:020][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:020][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:020][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:020][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:020][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:020][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:020][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:021][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:021][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:021][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:021][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:021][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:021][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:021][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:021][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:021][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:021][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:021][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:022][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:022][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:022][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:027][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:030][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:032][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:032][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:035][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:051][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:113][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:131][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:136][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:136][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:140][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:143][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:147][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:148][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:163][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:163][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:163][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.06:163][315]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.26-07.04.14:496][301]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.26-07.05.26:575][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset" SILENT=true
+[2019.11.26-07.05.26:637][713]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink917BBA4A4FA3EC9F90B8EA82827AA1C2.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink.uasset'
+[2019.11.26-07.05.27:105][762]BlueprintLog: New page: BPLink 컴파일
+[2019.11.26-07.05.27:281][762]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.11.26-07.05.34:165][550]LogSlate: Window 'BPLink' being destroyed
+[2019.11.26-07.05.34:169][550]LogSlate: Window 'BPLink' being destroyed
+[2019.11.26-07.05.34:191][550]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-07.05.34:259][550]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.26-07.05.34:259][550]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-07.05.34:319][550]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.26-07.05.34:320][550]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-07.05.41:723][427]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Link/BPLink.BPLink
+[2019.11.26-07.05.51:411][496]LogSlate: Window 'BPLink' being destroyed
+[2019.11.26-07.05.51:415][496]LogSlate: Window 'BPLink' being destroyed
+[2019.11.26-07.05.51:435][496]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-07.06.00:382][552]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.11.26-07.06.00:675][552]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2019.11.26-07.06.00:699][552]LogBlueprint: Error: [Compiler BPHole] Construct Object from Class  에서 '/Game/Blueprints/Link/BPLink2.BPLink2_C' 유형 오브젝트를 구성할 수 없습니다.
+[2019.11.26-07.06.00:885][552]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.11.26-07.06.00:889][552]LogMetaData: Removing '/Game/Blueprints/Link/BPLink2.BPLink2_C' ref from Metadata '/Game/Blueprints/Link/BPLink.PackageMetaData'
+[2019.11.26-07.06.00:889][552]LogMetaData: Removing '/Game/Blueprints/Link/BPLink2.BPLink2:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Link/BPLink.PackageMetaData'
+[2019.11.26-07.06.00:889][552]LogMetaData: Removing '/Game/Blueprints/Link/BPLink2.BPLink2:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Link/BPLink.PackageMetaData'
+[2019.11.26-07.06.00:889][552]LogMetaData: Removing '/Game/Blueprints/Link/BPLink2.BPLink2:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Link/BPLink.PackageMetaData'
+[2019.11.26-07.06.00:889][552]LogMetaData: Removing '/Game/Blueprints/Link/BPLink2.BPLink2:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Link/BPLink.PackageMetaData'
+[2019.11.26-07.06.00:889][552]LogMetaData: Removing '/Game/Blueprints/Link/BPLink2.SKEL_BPLink2_C' ref from Metadata '/Game/Blueprints/Link/BPLink.PackageMetaData'
+[2019.11.26-07.06.00:889][552]LogMetaData: Removing '/Game/Blueprints/Link/BPLink2.BPLink2:Connect.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Link/BPLink.PackageMetaData'
+[2019.11.26-07.06.00:889][552]LogMetaData: Removing '/Game/Blueprints/Link/BPLink2.BPLink2:Disconnect.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Link/BPLink.PackageMetaData'
+[2019.11.26-07.06.00:912][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/BPLink2" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink2.uasset" SILENT=true
+[2019.11.26-07.06.00:931][552]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPLink24DD51BAF4EB2F18814EE4AB2EE06C345.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Link/BPLink2.uasset'
+[2019.11.26-07.06.01:068][552]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2019.11.26-07.06.01:097][552]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.11.26-07.06.01:120][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2019.11.26-07.06.01:146][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.11.26-07.06.01:213][552]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPComponentsDA094E314B51E8E893AB56B46F6C7DAF.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.11.26-07.06.01:219][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.26-07.06.01:302][552]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHole59B0BABF4C50102C944E42BE7921B1CB.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.26-07.06.03:624][822]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Link/BPLink2.BPLink2
+[2019.11.26-07.06.06:483][122]LogSlate: Window 'BPLink2' being destroyed
+[2019.11.26-07.06.06:488][122]LogSlate: Window 'BPLink2' being destroyed
+[2019.11.26-07.06.06:510][122]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-07.06.10:900][640]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Hole/BPHole.BPHole
+[2019.11.26-07.06.17:552][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.26-07.06.17:632][373]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHoleB2A16D634440E1EB6846148AB11AA8E0.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.26-07.06.17:987][412]BlueprintLog: New page: BPHole 컴파일
+[2019.11.26-07.06.18:238][412]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.11.26-07.06.31:233][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hole/BPHole" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset" SILENT=true
+[2019.11.26-07.06.31:312][950]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/BPHole753F6F744FB02D2CB0E0BAA9166B6F38.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Content/Blueprints/Hole/BPHole.uasset'
+[2019.11.26-07.06.31:778][  3]BlueprintLog: New page: BPHole 컴파일
+[2019.11.26-07.06.31:990][  3]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.11.26-07.06.38:234][704]LogSlate: Window 'BPHole' being destroyed
+[2019.11.26-07.06.38:239][704]LogSlate: Window 'BPHole' being destroyed
+[2019.11.26-07.06.38:246][704]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-07.07.04:917][983]LogSlate: Window '부모 클래스 선택' being destroyed
+[2019.11.26-07.07.07:967][343]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2019.11.26-07.07.07:968][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2" FILE="../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.26-07.07.08:191][343]LogSavePackage: Moving '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/test2_Auto5201AD61844C5AF1DE6F55EA73DA1D6DB.tmp' to '../../../../../../Users/sw-convergence-01/Desktop/VRRobot/Saved/Autosaves/Game/test2_Auto5.umap'
+[2019.11.26-07.07.08:195][343]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/test2' took 0.254
+[2019.11.26-07.07.08:195][343]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.254
+[2019.11.26-07.07.14:365][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.11.26-07.07.19:431][ 76]LogSlate: Window 'Delete Assets' being destroyed
