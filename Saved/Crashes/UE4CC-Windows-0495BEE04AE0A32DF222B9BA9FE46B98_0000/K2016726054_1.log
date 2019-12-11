@@ -1,0 +1,855 @@
+﻿Log file open, 12/11/19 12:57:11
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: K2016726054_1
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.088493
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-8386587
+LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1803) (), CPU: Intel(R) Pentium(R) CPU G4560 @ 3.50GHz, GPU: Intel(R) HD Graphics 610
+LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.12.11-03.57.11:519][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.11-03.57.11:519][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.12.11-03.57.11:519][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.12.11-03.57.11:523][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.11-03.57.11:523][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.11-03.57.11:524][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.11-03.57.11:524][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.11-03.57.11:524][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.11-03.57.11:526][  0]LogHAL: Display: Platform has ~ 8 GB [8473509888 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.11-03.57.11:526][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.11-03.57.11:526][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.11-03.57.11:527][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Scalability.ini]
+[2019.12.11-03.57.11:528][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.11-03.57.11:528][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.11-03.57.11:528][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.11-03.57.11:528][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.11-03.57.11:528][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.11-03.57.11:528][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Config/Windows/Engine.ini]
+[2019.12.11-03.57.11:528][  0]LogInit: Computer: DESKTOP-CQN10V3
+[2019.12.11-03.57.11:528][  0]LogInit: User: KKH
+[2019.12.11-03.57.11:528][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.12.11-03.57.11:528][  0]LogInit: High frequency timer resolution =3.421878 MHz
+[2019.12.11-03.57.11:528][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.12.11-03.57.11:528][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.11-03.57.11:528][  0]LogMemory: Process Physical Memory: 99.61 MB used, 99.61 MB peak
+[2019.12.11-03.57.11:528][  0]LogMemory: Process Virtual Memory: 87.90 MB used, 87.90 MB peak
+[2019.12.11-03.57.11:528][  0]LogMemory: Physical Memory: 4085.22 MB used,  3995.75 MB free, 8080.97 MB total
+[2019.12.11-03.57.11:528][  0]LogMemory: Virtual Memory: 4651.26 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.12.11-03.57.11:532][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.12.11-03.57.11:556][  0]LogInit: Using OS detected language (ko-KR).
+[2019.12.11-03.57.11:556][  0]LogInit: Using OS detected locale (ko-KR).
+[2019.12.11-03.57.11:557][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2019.12.11-03.57.11:639][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.11-03.57.11:679][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.11-03.57.11:679][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.11-03.57.12:036][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.11-03.57.12:036][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.11-03.57.12:108][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.12.11-03.57.12:108][  0]LogD3D11RHI:       4053/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.12.11-03.57.12:121][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 610' (Feature Level 11_0)
+[2019.12.11-03.57.12:121][  0]LogD3D11RHI:       128/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.12.11-03.57.12:123][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.11-03.57.12:123][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.11-03.57.12:123][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.11-03.57.12:153][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.11-03.57.12:153][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2019.12.11-03.57.12:153][  0]LogWindows: EnumDisplayDevices:
+[2019.12.11-03.57.12:154][  0]LogWindows:    0. 'Intel(R) HD Graphics 610' (P:1 D:1)
+[2019.12.11-03.57.12:155][  0]LogWindows:    1. 'Intel(R) HD Graphics 610' (P:0 D:0)
+[2019.12.11-03.57.12:156][  0]LogWindows:    2. 'Intel(R) HD Graphics 610' (P:0 D:0)
+[2019.12.11-03.57.12:157][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.12.11-03.57.12:157][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.12.11-03.57.12:157][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.12.11-03.57.12:157][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.12.11-03.57.12:157][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
+[2019.12.11-03.57.12:191][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.11-03.57.12:201][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.12.11-03.57.12:797][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.11-03.57.12:808][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.11-03.57.12:816][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.11-03.57.12:825][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.11-03.57.12:835][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.11-03.57.12:843][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.11-03.57.12:854][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.11-03.57.12:867][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.11-03.57.12:873][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.11-03.57.12:920][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.11-03.57.12:923][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.11-03.57.12:941][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.11-03.57.12:941][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.11-03.57.12:954][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.11-03.57.12:954][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.11-03.57.12:961][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.11-03.57.12:968][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.11-03.57.12:975][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.11-03.57.12:983][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.11-03.57.13:006][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.11-03.57.13:006][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.11-03.57.13:007][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.11-03.57.13:019][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.11-03.57.13:066][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (C:/Users/KKH/Desktop/새 폴더/VRRobot/Intermediate/Shaders/WorkingDirectory/16272/).
+[2019.12.11-03.57.13:066][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/KKH/AppData/Local/Temp/UnrealShaderWorkingDir/A833FC3B44AC9852DEEE15A6CCA378AE/'.
+[2019.12.11-03.57.13:068][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.11-03.57.13:068][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.11-03.57.13:068][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.11-03.57.13:701][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.11-03.57.13:755][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/KKH/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.11-03.57.13:755][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/KKH/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.12.11-03.57.13:755][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/KKH/Desktop/새 폴더/VRRobot/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.11-03.57.13:755][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.11-03.57.13:755][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/KKH/Desktop/새 폴더/VRRobot/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.11-03.57.13:755][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.11-03.57.13:766][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.11-03.57.13:766][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.11-03.57.13:766][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.11-03.57.13:768][  0]LogDerivedDataCache: Using Local data cache path C:/Users/KKH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.11-03.57.13:768][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.11-03.57.13:768][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.11-03.57.13:791][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.11-03.57.13:794][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.11-03.57.13:794][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.11-03.57.13:865][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2019.12.11-03.57.14:150][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.11-03.57.14:296][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.11-03.57.14:296][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.11-03.57.14:296][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.11-03.57.14:296][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.11-03.57.14:297][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.11-03.57.14:306][  0]LogNetVersion: K2016726054_1 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2024663954)
+[2019.12.11-03.57.14:744][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.056136 seconds
+[2019.12.11-03.57.14:751][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.12.11-03.57.14:751][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.12.11-03.57.14:751][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.11-03.57.15:848][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.11-03.57.15:851][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.11-03.57.15:907][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.12.11-03.57.15:907][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.12.11-03.57.15:909][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.12.11-03.57.15:911][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.12.11-03.57.16:011][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.11-03.57.16:147][  0]LogOcInput: OculusInput pre-init called
+[2019.12.11-03.57.16:153][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.12.11-03.57.16:153][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.12.11-03.57.16:224][  0]LogEngine: Initializing Engine...
+[2019.12.11-03.57.16:224][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.11-03.57.16:225][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.11-03.57.16:525][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.11-03.57.16:552][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.11-03.57.16:566][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.11-03.57.16:675][  0]LogInit: FAudioDevice initialized.
+[2019.12.11-03.57.16:676][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.11-03.57.16:777][  0]LogDerivedDataCache: Saved boot cache 0.10s 73MB C:/Users/KKH/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.11-03.57.16:782][  0]LogInit: Texture streaming: Enabled
+[2019.12.11-03.57.16:799][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.11-03.57.16:871][  0]LogInit: Transaction tracking system initialized
+[2019.12.11-03.57.16:911][  0]BlueprintLog: New page: 에디터 로드
+[2019.12.11-03.57.16:977][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.12.11-03.57.17:242][  0]LogFileCache: Scanning file cache for directory 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/' took 0.01s
+[2019.12.11-03.57.17:242][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.11-03.57.17:242][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.11-03.57.17:453][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.12.11-03.57.17:454][  0]Cmd: MAP LOAD FILE="C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.11-03.57.17:454][  0]LightingResults: New page: 라이팅 빌드
+[2019.12.11-03.57.17:456][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.12.11-03.57.17:456][  0]MapCheck: New page: 맵 체크
+[2019.12.11-03.57.17:457][  0]LightingResults: New page: 라이팅 빌드
+[2019.12.11-03.57.17:487][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2019.12.11-03.57.18:139][  0]LogAIModule: Creating AISystem for world test2
+[2019.12.11-03.57.18:328][  0]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2019.12.11-03.57.18:328][  0]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2019.12.11-03.57.18:692][  0]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2019.12.11-03.57.18:692][  0]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2019.12.11-03.57.18:694][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.11-03.57.18:753][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2019.12.11-03.57.18:753][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.11-03.57.18:753][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.274ms.
+[2019.12.11-03.57.18:753][  0]LogFileHelpers: Loading map 'test2' took 1.299
+[2019.12.11-03.57.18:875][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-03.57.18:881][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-03.57.18:888][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-03.57.18:895][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.11-03.57.18:900][  0]LogCollectionManager: Loaded 0 collections in 0.001207 seconds
+[2019.12.11-03.57.18:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/Collections/' took 0.00s
+[2019.12.11-03.57.18:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/Developers/KKH/Collections/' took 0.00s
+[2019.12.11-03.57.18:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/Collections/' took 0.00s
+[2019.12.11-03.57.18:905][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.12.11-03.57.18:915][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2863 classes and 680 folders.
+[2019.12.11-03.57.18:921][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.12.11-03.57.18:989][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.12.11-03.57.18:994][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.12.11-03.57.19:081][  0]LogSlate: Took 0.000468 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.11-03.57.19:087][  0]LogSlate: Took 0.004510 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.12.11-03.57.19:091][  0]LogSlate: Took 0.003262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.12.11-03.57.19:091][  0]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.11-03.57.19:097][  0]LogSlate: Took 0.000410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.11-03.57.19:173][  0]LogRenderer: Reallocating scene render targets to support 804x460 Format 10 NumSamples 1 (Frame:1).
+[2019.12.11-03.57.19:241][  0]LogSlate: Last resort fallback font was requested. Font: '/Engine/EngineFonts/Faces/RobotoRegular.RobotoRegular', Character: '라 (U+b77c)'
+[2019.12.11-03.57.19:247][  0]LogSlate: Took 0.003581 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.12.11-03.57.19:322][  0]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.11-03.57.19:449][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.12.11-03.57.19:449][  0]LogLoad: (Engine Initialization) Total time: 9.76 seconds
+[2019.12.11-03.57.19:449][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.11-03.57.19:462][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2019.12.11-03.57.19:513][  0]LogAssetRegistry: Asset discovery search completed in 5.6484 seconds
+[2019.12.11-03.57.19:518][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2019.12.11-03.57.19:518][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2019.12.11-03.57.19:519][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.11-03.57.19:570][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/' took 0.10s
+[2019.12.11-03.57.33:465][ 83]LogEditorViewport: Clicking on Actor (LMB): BPGear40_C (BPGear47)
+[2019.12.11-03.57.34:899][175]LogEditorViewport: Clicking on Actor (CTRL LMB): BPBeam11_C (BPBeam20)
+[2019.12.11-03.57.36:310][267]LogEditorViewport: Clicking on Actor (CTRL LMB): BPBeam11_C (BPBeam21)
+[2019.12.11-03.57.37:771][362]LogEditorViewport: Clicking on Actor (LMB): BPBeam11_C (BPBeam22)
+[2019.12.11-03.57.39:518][475]LogEditorViewport: Clicking on Actor (LMB): BPAxle5_C (BPAxle23)
+[2019.12.11-03.57.45:683][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-03.58.02:517][136]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-03.58.02:724][150]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.11-03.58.02:736][150]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BPMotor.BPMotor
+[2019.12.11-03.58.03:006][150]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2019.12.11-03.58.03:840][150]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.11-03.58.06:360][284]LogSlate: Took 0.000429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.11-03.58.07:630][355]LogSlate: Window 'BPMotor' being destroyed
+[2019.12.11-03.58.07:640][355]LogSlate: Window 'BPMotor' being destroyed
+[2019.12.11-03.58.07:672][355]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.12.11-03.58.08:782][420]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BPHand.BPHand
+[2019.12.11-03.58.09:200][420]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2019.12.11-03.58.09:201][420]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2019.12.11-03.58.34:521][795]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BPMotor.BPMotor
+[2019.12.11-03.58.52:030][807]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Gear/ImplementedGear/BPGear24.BPGear24
+[2019.12.11-03.58.56:408][ 24]LogSlate: Window 'BPGear24' being destroyed
+[2019.12.11-03.58.56:416][ 24]LogSlate: Window 'BPGear24' being destroyed
+[2019.12.11-03.58.56:429][ 24]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.12.11-03.58.56:493][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.12.11-03.58.56:493][ 24]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2019.12.11-03.58.56:543][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.12.11-03.58.56:543][ 24]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2019.12.11-03.58.59:335][172]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BPComponents.BPComponents
+[2019.12.11-03.59.04:946][450]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Gear/BPGear.BPGear
+[2019.12.11-04.02.32:773][414]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Link/BPLink.BPLink
+[2019.12.11-04.03.20:703][556]LogEditorViewport: Clicking on Actor (LMB): BPBeam11_C (BPBeam27)
+[2019.12.11-04.03.21:361][602]LogEditorViewport: Clicking on Actor (CTRL LMB): BPGear24_C (BPGear37)
+[2019.12.11-04.03.21:911][641]LogEditorViewport: Clicking on Actor (CTRL LMB): BPGear8_C (BPGear14)
+[2019.12.11-04.03.22:466][681]LogEditorViewport: Clicking on Actor (CTRL LMB): BPGear24_C (BPGear36)
+[2019.12.11-04.03.23:012][720]LogEditorViewport: Clicking on Actor (CTRL LMB): BPBeam11_C (BPBeam28)
+[2019.12.11-04.03.23:552][759]LogEditorViewport: Clicking on Actor (CTRL LMB): BPGear40_C (BPGear50)
+[2019.12.11-04.03.27:919][ 85]LogEditorViewport: Clicking on Actor (CTRL LMB): BPGear24_C (BPGear35)
+[2019.12.11-04.03.28:641][136]LogEditorViewport: Clicking on Actor (CTRL LMB): BPAxle4_C (BPAxle31)
+[2019.12.11-04.03.29:469][196]LogEditorViewport: Clicking on Actor (CTRL LMB): BPBeam7_C (BPBeam10)
+[2019.12.11-04.03.30:714][288]LogEditorViewport: Clicking on Actor (CTRL LMB): BPAxle4_C (BPAxle35)
+[2019.12.11-04.03.31:373][334]LogEditorViewport: Clicking on Actor (CTRL LMB): BPGear24_C (BPGear34)
+[2019.12.11-04.03.39:468][912]Cmd: EDIT COPY
+[2019.12.11-04.03.39:946][912]Cmd: EDIT PASTE
+[2019.12.11-04.03.51:619][585]Cmd: TRANSACTION UNDO
+[2019.12.11-04.03.51:619][585]LogEditorTransaction: Undo 액터 이동
+[2019.12.11-04.03.52:107][608]Cmd: TRANSACTION UNDO
+[2019.12.11-04.03.52:107][608]LogEditorTransaction: Undo 붙여넣기
+[2019.12.11-04.03.54:932][805]LogEditorViewport: Clicking on Actor (CTRL LMB): BPAxle4_C (BPAxle33)
+[2019.12.11-04.03.55:880][873]Cmd: EDIT COPY
+[2019.12.11-04.03.56:281][903]Cmd: EDIT PASTE
+[2019.12.11-04.04.01:833][220]Cmd: TRANSACTION UNDO
+[2019.12.11-04.04.01:833][220]LogEditorTransaction: Undo 액터 이동
+[2019.12.11-04.04.02:193][237]Cmd: TRANSACTION UNDO
+[2019.12.11-04.04.02:193][237]LogEditorTransaction: Undo 붙여넣기
+[2019.12.11-04.04.03:156][300]LogEditorViewport: Clicking on Actor (CTRL LMB): BPAxle4_C (BPAxle32)
+[2019.12.11-04.04.04:464][391]Cmd: EDIT COPY
+[2019.12.11-04.04.04:721][408]Cmd: EDIT PASTE
+[2019.12.11-04.04.09:969][680]LogEditorViewport: Clicking on Actor (LMB): BPGear24_C (BPGear36)
+[2019.12.11-04.04.10:870][734]Cmd: DELETE
+[2019.12.11-04.04.10:870][734]Cmd: ACTOR DELETE
+[2019.12.11-04.04.11:263][734]LogEditorActor: Deleted Actor: BPGear24_C
+[2019.12.11-04.04.11:379][734]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2019.12.11-04.04.11:379][734]LogEditorActor: Deleted 1 Actors (0.509 secs)
+[2019.12.11-04.04.11:979][774]Cmd: TRANSACTION UNDO
+[2019.12.11-04.04.11:979][774]LogEditorTransaction: Undo 액터 삭제
+[2019.12.11-04.04.12:549][801]Cmd: TRANSACTION UNDO
+[2019.12.11-04.04.12:549][801]LogEditorTransaction: Undo 액터 클릭
+[2019.12.11-04.05.14:251][158]LogEditorViewport: Clicking on Actor (LMB): BPGear40_C (BPGear51)
+[2019.12.11-04.05.20:478][588]LogEditorViewport: Clicking on Actor (LMB): BPGear24_C (BPGear53)
+[2019.12.11-04.05.21:449][656]LogEditorViewport: Clicking on Actor (CTRL LMB): BPAxle4_C (BPAxle39)
+[2019.12.11-04.05.41:786][159]LogEditorViewport: Clicking on Actor (LMB): BPAxle4_C (BPAxle39)
+[2019.12.11-04.05.53:304][  6]LogEditorViewport: Clicking on Actor (LMB): BPAxle4_C (BPAxle38)
+[2019.12.11-04.05.53:921][ 50]LogEditorViewport: Clicking on Actor (LMB): BPGear8_C (BPGear15)
+[2019.12.11-04.06.07:321][ 43]LogEditorViewport: Clicking on Actor (LMB): BPGear24_C (BPGear39)
+[2019.12.11-04.06.10:775][292]LogEditorViewport: Clicking on Actor (LMB): BPAxle4_C (BPAxle36)
+[2019.12.11-04.06.11:884][371]LogEditorViewport: Clicking on Actor (CTRL LMB): BPGear24_C (BPGear38)
+[2019.12.11-04.06.17:655][797]LogEditorViewport: Clicking on Actor (LMB): BPGear40_C (BPGear51)
+[2019.12.11-04.06.20:484][  2]LogEditorViewport: Clicking on Actor (LMB): BPGear8_C (BPGear15)
+[2019.12.11-04.06.22:645][159]LogEditorViewport: Clicking on Actor (LMB): BPAxle4_C (BPAxle39)
+[2019.12.11-04.06.23:790][242]LogEditorViewport: Clicking on Actor (LMB): BPAxle4_C (BPAxle39)
+[2019.12.11-04.06.24:807][316]LogEditorViewport: Clicking on Actor (CTRL LMB): BPGear24_C (BPGear53)
+[2019.12.11-04.06.33:921][996]LogEditorViewport: Clicking on Actor (LMB): BPGear8_C (BPGear15)
+[2019.12.11-04.06.36:796][207]LogEditorViewport: Clicking on Actor (LMB): BPAxle4_C (BPAxle39)
+[2019.12.11-04.06.37:704][272]LogEditorViewport: Clicking on Actor (CTRL LMB): BPGear24_C (BPGear53)
+[2019.12.11-04.07.05:281][105]LogEditorViewport: Clicking on Actor (LMB): BPBeam11_C (BPBeam29)
+[2019.12.11-04.07.10:699][478]LogEditorViewport: Clicking on Actor (LMB): BPAxle4_C (BPAxle38)
+[2019.12.11-04.07.11:562][541]LogEditorViewport: Clicking on Actor (LMB): BPGear8_C (BPGear15)
+[2019.12.11-04.07.13:015][648]Cmd: DELETE
+[2019.12.11-04.07.13:015][648]Cmd: ACTOR DELETE
+[2019.12.11-04.07.13:046][648]LogEditorActor: Deleted Actor: BPGear8_C
+[2019.12.11-04.07.13:163][648]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2019.12.11-04.07.13:163][648]LogEditorActor: Deleted 1 Actors (0.148 secs)
+[2019.12.11-04.07.13:658][682]LogEditorViewport: Clicking on Actor (LMB): BPAxle4_C (BPAxle38)
+[2019.12.11-04.07.14:434][739]Cmd: TRANSACTION UNDO
+[2019.12.11-04.07.14:434][739]LogEditorTransaction: Undo 액터 클릭
+[2019.12.11-04.07.14:755][761]Cmd: TRANSACTION UNDO
+[2019.12.11-04.07.14:755][761]LogEditorTransaction: Undo 액터 삭제
+[2019.12.11-04.07.16:359][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.07.17:912][992]LogEditorViewport: Clicking on Actor (LMB): BPGear40_C (BPGear51)
+[2019.12.11-04.07.19:537][113]LogEditorViewport: Clicking on Actor (LMB): BPGear8_C (BPGear15)
+[2019.12.11-04.07.20:498][184]Cmd: DELETE
+[2019.12.11-04.07.20:498][184]Cmd: ACTOR DELETE
+[2019.12.11-04.07.20:524][184]LogEditorActor: Deleted Actor: BPGear8_C
+[2019.12.11-04.07.20:558][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2019.12.11-04.07.20:559][184]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2019.12.11-04.07.21:637][275]Cmd: TRANSACTION UNDO
+[2019.12.11-04.07.21:637][275]LogEditorTransaction: Undo 액터 삭제
+[2019.12.11-04.07.22:356][316]LogEditorViewport: Clicking on Actor (LMB): BPGear40_C (BPGear51)
+[2019.12.11-04.07.23:839][416]Cmd: EDIT COPY
+[2019.12.11-04.07.24:205][440]Cmd: EDIT PASTE
+[2019.12.11-04.07.27:043][641]LogEditorViewport: Clicking on Actor (LMB): BPGear8_C (BPGear15)
+[2019.12.11-04.07.27:895][701]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.07.29:765][854]Cmd: DELETE
+[2019.12.11-04.07.29:765][854]Cmd: ACTOR DELETE
+[2019.12.11-04.07.29:790][854]LogEditorActor: Deleted Actor: BPGear8_C
+[2019.12.11-04.07.29:826][854]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.12.11-04.07.29:826][854]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2019.12.11-04.07.30:340][896]LogEditorViewport: Clicking on Actor (LMB): BPGear40_C (BPGear54)
+[2019.12.11-04.07.31:566][984]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.07.44:238][921]LogEditorViewport: Clicking on Actor (LMB): BPGear40_C (BPGear51)
+[2019.12.11-04.07.46:395][ 58]Cmd: EDIT COPY
+[2019.12.11-04.07.46:698][ 77]Cmd: EDIT PASTE
+[2019.12.11-04.07.49:423][241]LogEditorViewport: Clicking on Actor (LMB): BPGear24_C (BPGear52)
+[2019.12.11-04.07.50:069][280]Cmd: EDIT COPY
+[2019.12.11-04.07.50:379][300]Cmd: EDIT PASTE
+[2019.12.11-04.07.52:959][459]LogEditorViewport: Clicking on Actor (LMB): BPGear40_C (BPGear51)
+[2019.12.11-04.07.53:842][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.07.56:067][682]LogEditorViewport: Clicking on Actor (LMB): BPGear40_C (BPGear51)
+[2019.12.11-04.07.56:878][733]Cmd: DELETE
+[2019.12.11-04.07.56:878][733]Cmd: ACTOR DELETE
+[2019.12.11-04.07.56:907][733]LogEditorActor: Deleted Actor: BPGear40_C
+[2019.12.11-04.07.56:956][733]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.12.11-04.07.56:957][733]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2019.12.11-04.07.57:555][776]LogEditorViewport: Clicking on Actor (LMB): BPGear24_C (BPGear56)
+[2019.12.11-04.07.59:132][876]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.08.01:347][ 54]LogEditorViewport: Clicking on Actor (LMB): BPGear24_C (BPGear52)
+[2019.12.11-04.08.02:361][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.08.04:171][260]Cmd: DELETE
+[2019.12.11-04.08.04:171][260]Cmd: ACTOR DELETE
+[2019.12.11-04.08.04:198][260]LogEditorActor: Deleted Actor: BPGear24_C
+[2019.12.11-04.08.04:234][260]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.12.11-04.08.04:235][260]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2019.12.11-04.08.04:725][296]LogEditorViewport: Clicking on Actor (LMB): BPGear40_C (BPGear55)
+[2019.12.11-04.08.04:989][311]LogEditorViewport: Clicking on Actor (context menu): BPGear40_C (BPGear55)
+[2019.12.11-04.08.05:024][311]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.11-04.08.11:810][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.08.11:921][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2" FILE="C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-04.08.11:960][850]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.12.11-04.08.12:980][850]LogSavePackage: Moving 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/test265880429479FA5691551008F0DA7F7A6.tmp' to 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2.umap'
+[2019.12.11-04.08.13:024][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2_BuiltData" FILE="C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2_BuiltData.uasset" SILENT=true
+[2019.12.11-04.08.13:133][850]LogSavePackage: Moving 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/test2_BuiltData0D75A998463F8AB702D503A47B83E043.tmp' to 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2_BuiltData.uasset'
+[2019.12.11-04.08.35:210][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.08.52:507][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.08.52:587][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2" FILE="C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-04.08.52:626][689]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2019.12.11-04.08.53:603][689]LogSavePackage: Moving 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/test2B63BA3204B5D5B280CDC20BC962AFBD7.tmp' to 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2.umap'
+[2019.12.11-04.08.53:645][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2_BuiltData" FILE="C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2_BuiltData.uasset" SILENT=true
+[2019.12.11-04.08.53:744][689]LogSavePackage: Moving 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/test2_BuiltData1846EDE74622804EF04FAEA02710A2D5.tmp' to 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2_BuiltData.uasset'
+[2019.12.11-04.09.17:332][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.09.35:513][294]LogSlate: Window 'BPLink' being destroyed
+[2019.12.11-04.09.35:518][294]LogSlate: Window 'BPLink' being destroyed
+[2019.12.11-04.09.35:530][294]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2019.12.11-04.09.35:597][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.12.11-04.09.35:597][294]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2019.12.11-04.09.35:653][294]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2019.12.11-04.09.47:571][180]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Link/BPLink.BPLink
+[2019.12.11-04.10.31:993][684]LogSlate: Window 'BPLink' being destroyed
+[2019.12.11-04.10.32:002][684]LogSlate: Window 'BPLink' being destroyed
+[2019.12.11-04.10.32:013][684]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2019.12.11-04.10.38:960][147]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Gear/BPGear.BPGear
+[2019.12.11-04.11.13:060][974]LogSlate: Window 'BPGear' being destroyed
+[2019.12.11-04.11.13:070][974]LogSlate: Window 'BPGear' being destroyed
+[2019.12.11-04.11.13:084][974]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2019.12.11-04.11.25:865][813]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BPComponents.BPComponents
+[2019.12.11-04.16.48:210][ 75]LogEditorViewport: Clicking on Actor (LMB): BPHand_C (BPHand)
+[2019.12.11-04.16.50:494][187]LogEditorViewport: Clicking on Actor (LMB): BPHand_C (BPHand)
+[2019.12.11-04.16.51:043][213]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.12.11-04.16.55:432][521]LogEditorViewport: Clicking on Actor (LMB): BPHand_C (BPHand)
+[2019.12.11-04.16.57:306][613]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2019.12.11-04.16.58:251][674]LogEditorViewport: Clicking on Actor (LMB): BPHand_C (BPHand)
+[2019.12.11-04.16.59:094][713]LogEditorViewport: Clicking on Actor (LMB): BPHand_C (BPHand)
+[2019.12.11-04.16.59:729][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2019.12.11-04.17.00:383][785]LogEditorViewport: Clicking on Actor (LMB): BPHand_C (BPHand)
+[2019.12.11-04.17.00:956][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2019.12.11-04.17.01:448][842]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.12.11-04.17.20:074][155]LogEditorViewport: Clicking on Actor (LMB): BPAxle4_C (BPAxle4)
+[2019.12.11-04.17.26:692][636]LogEditorViewport: Clicking on Actor (LMB): BPHand_C (BPHand)
+[2019.12.11-04.17.40:912][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.17.49:736][702]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Gear/BPGear.BPGear
+[2019.12.11-04.18.37:847][863]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Link/ImplementedLink/BPGearLink.BPGearLink
+[2019.12.11-04.19.36:684][589]BlueprintLog: New page: BPGear 컴파일
+[2019.12.11-04.19.37:100][589]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2019.12.11-04.19.37:560][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gear/BPGear" FILE="C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/Blueprints/Gear/BPGear.uasset" SILENT=true
+[2019.12.11-04.19.37:694][600]LogSavePackage: Moving 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/BPGear3709A0E5425B55DEA8BDA2967803F3CF.tmp' to 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/Blueprints/Gear/BPGear.uasset'
+[2019.12.11-04.20.19:759][520]LogBlueprint: Warning: Blueprint BPMotor (child of/implements BPComponents) has a member variable with a conflicting name (isRotate). Changing to isRotate_0.
+[2019.12.11-04.20.22:773][641]BlueprintLog: New page: BPComponents 컴파일
+[2019.12.11-04.20.23:602][641]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2019.12.11-04.20.24:291][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPComponents" FILE="C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/Blueprints/BPComponents.uasset" SILENT=true
+[2019.12.11-04.20.24:809][657]LogSavePackage: Moving 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/BPComponents5370C2BB4792C8C8DBE295AB859E46F6.tmp' to 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/Blueprints/BPComponents.uasset'
+[2019.12.11-04.20.31:349][931]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BPMotor.BPMotor
+[2019.12.11-04.20.45:728][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gear/BPGear" FILE="C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/Blueprints/Gear/BPGear.uasset" SILENT=true
+[2019.12.11-04.20.45:848][513]LogSavePackage: Moving 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/BPGear163D883C45EBBE0FAF0A28B166BFBE63.tmp' to 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/Blueprints/Gear/BPGear.uasset'
+[2019.12.11-04.21.34:110][920]BlueprintLog: New page: BPGearLink 컴파일
+[2019.12.11-04.21.34:169][920]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2019.12.11-04.21.34:879][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Link/ImplementedLink/BPGearLink" FILE="C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/Blueprints/Link/ImplementedLink/BPGearLink.uasset" SILENT=true
+[2019.12.11-04.21.35:005][946]LogSavePackage: Moving 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/BPGearLink8F32E88147DC34C400CC5EB6AAD91007.tmp' to 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/Blueprints/Link/ImplementedLink/BPGearLink.uasset'
+[2019.12.11-04.21.36:794][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPMotor" FILE="C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/Blueprints/BPMotor.uasset" SILENT=true
+[2019.12.11-04.21.36:920][ 11]LogSavePackage: Moving 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/BPMotorF0C285164E6382780468CCBB907030FB.tmp' to 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/Blueprints/BPMotor.uasset'
+[2019.12.11-04.22.03:634][195]LogSlate: Window 'BPMotor' being destroyed
+[2019.12.11-04.22.03:640][195]LogSlate: Window 'BPMotor' being destroyed
+[2019.12.11-04.22.03:676][195]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2019.12.11-04.22.03:746][195]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.12.11-04.22.03:746][195]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2019.12.11-04.22.03:815][195]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2019.12.11-04.22.03:862][195]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.12.11-04.22.03:862][195]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2019.12.11-04.22.05:778][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2019.12.11-04.22.12:829][764]LogEditorViewport: Clicking on Actor (LMB): BPMotor_C (BPMotor3)
+[2019.12.11-04.22.14:366][857]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-04.22.15:417][931]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.11-04.22.15:425][931]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/test2.test2:PersistentLevel.test2
+[2019.12.11-04.22.34:729][100]LogEditorViewport: Clicking on Actor (LMB): BPMotor_C (BPMotor2)
+[2019.12.11-04.22.36:855][224]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-04.22.44:374][669]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-04.22.59:364][682]Cmd: TRANSACTION UNDO
+[2019.12.11-04.22.59:364][682]LogEditorTransaction: Undo 액터 이름변경
+[2019.12.11-04.23.06:130][ 81]LogEditorViewport: Clicking on Actor (LMB): BPMotor_C (FirstMotor)
+[2019.12.11-04.23.16:059][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.23.25:205][229]LogEditorViewport: Clicking on Actor (LMB): BPMotor_C (FirstMotor)
+[2019.12.11-04.23.26:439][302]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.23.34:437][883]BlueprintLog: New page: test2 컴파일
+[2019.12.11-04.23.34:681][883]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2019.12.11-04.23.34:979][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2" FILE="C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-04.23.35:015][898]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.12.11-04.23.36:082][898]LogSavePackage: Moving 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/test241A79CDB4A42BC246D38EC9DD8C3146B.tmp' to 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2.umap'
+[2019.12.11-04.23.36:120][898]LogFileHelpers: Saving map 'test2' took 1.142
+[2019.12.11-04.23.46:795][514]BlueprintLog: New page: test2 컴파일
+[2019.12.11-04.23.47:020][514]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.12.11-04.23.47:325][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2" FILE="C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-04.23.47:362][529]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2019.12.11-04.23.48:376][529]LogSavePackage: Moving 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/test220C35C29497B6322A2E6DCB1E27E20C1.tmp' to 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2.umap'
+[2019.12.11-04.23.48:414][529]LogFileHelpers: Saving map 'test2' took 1.091
+[2019.12.11-04.25.11:654][314]BlueprintLog: New page: test2 컴파일
+[2019.12.11-04.25.11:877][314]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2019.12.11-04.25.12:256][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2" FILE="C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-04.25.12:297][332]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2019.12.11-04.25.13:316][332]LogSavePackage: Moving 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/test22C3135F24FB6C5948C8E05831F96EFD3.tmp' to 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2.umap'
+[2019.12.11-04.25.13:355][332]LogFileHelpers: Saving map 'test2' took 1.102
+[2019.12.11-04.25.36:738][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.25.38:645][765]LogEditorViewport: Clicking on Actor (LMB): BPGear40_C (BPGear41)
+[2019.12.11-04.25.41:859][949]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.25.51:302][568]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.11-04.25.52:507][638]LogEditorViewport: Clicking Background
+[2019.12.11-04.25.53:505][696]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.26.14:195][881]BlueprintLog: New page: test2 컴파일
+[2019.12.11-04.26.14:430][881]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2019.12.11-04.26.14:791][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test2" FILE="C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.12.11-04.26.14:827][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2019.12.11-04.26.15:867][897]LogSavePackage: Moving 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Saved/test20F8EF9E349FBD5CF35058691DEF42D3F.tmp' to 'C:/Users/KKH/Desktop/새 폴더/VRRobot/Content/test2.umap'
+[2019.12.11-04.26.15:906][897]LogFileHelpers: Saving map 'test2' took 1.118
+[2019.12.11-04.26.42:125][499]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.11-04.26.42:343][513]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BPHand.BPHand
+[2019.12.11-04.26.42:732][513]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Left')
+[2019.12.11-04.26.42:732][513]LogMotionControllerComponent: Warning: Failed to create a display component for the MotionController - no XR system (if there were any) had a model for the specified source ('Right')
+[2019.12.11-04.26.54:835][146]LogUObjectArray: Warning: Empty slot
+[2019.12.11-04.26.55:263][146]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.12.11-04.26.57:429][146]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.165 s
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: === Handled ensure: ===
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: 
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: Ensure condition failed: false [File:D:/Build/++UE4/Sync/Engine/Source/Editor/UnrealEd/Private/Kismet2/KismetDebugUtilities.cpp] [Line: 1154]
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: Stack: 
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd786241e9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd77e47d9a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd77e4866d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd77e55fff UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd82df6c91 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd7efc4dca UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd7ef7e057 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd883dd644 UE4Editor-Slate.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd885cc533 UE4Editor-Slate.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd8842922b UE4Editor-Slate.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd88405738 UE4Editor-Slate.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd883f9a1e UE4Editor-Slate.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd91d34c4c UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd91d226df UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd91d37340 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd91d1edd0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffdbb297281 USER32.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffdbb296c53 USER32.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffd91d388e9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ff6c3be6980 UE4Editor.exe!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ff6c3bfa91c UE4Editor.exe!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ff6c3bfa9fa UE4Editor.exe!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ff6c3c0b92c UE4Editor.exe!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ff6c3c0e60e UE4Editor.exe!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffdbdc94034 KERNEL32.DLL!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: [Callstack] 0x00007ffdbde83691 ntdll.dll!UnknownFunction []
+[2019.12.11-04.26.57:429][146]LogOutputDevice: Error: 
+[2019.12.11-04.26.57:444][146]LogStats:                SubmitErrorReport -  0.000 s
